@@ -1,0 +1,958 @@
+incident_id,report_text,location,reported_by,department,severity,incident_type,report_date,shift,status
+1,Pressure leak detected on Pipeline 7 during routine inspection.,PLATFORM B,Aisha,INSTRUMENTATION,HIGH,LEAK,2025-09-30,Day,OPEN
+2,,COMPRESSOR STATION,Mary,UTILITIES,LOW,INSPECTION,2025-12-15,Day,CLOSED
+3,,TANK FARM,Mary,UTILITIES,MEDIUM,SLIP/FALL,2025-09-09,Day,OPEN
+4,Smoke observed from electrical control panel.,REFINERY,Joy,PRODUCTION,HIGH,ELECTRICAL,2026-01-22,Day,OPEN
+5,,GAS PROCESSING UNIT,Samuel,PRODUCTION,MEDIUM,EQUIPMENT FAILURE,2025-02-14,Day,CLOSED
+6,Worker slipped on wet surface near loading bay.,FLOW STATION,Blessing,PIPELINE OPERATIONS,MEDIUM,SLIP/FALL,2025-10-26,Night,RESOLVED
+7,Oil spill discovered near storage tank.,WELLHEAD 12,Paul,PIPELINE OPERATIONS,HIGH,OIL SPILL,2025-11-09,Night,RESOLVED
+8,corrosion observed on external pipeline coating.,CONTROL ROOM,Chinedu,ELECTRICAL,MEDIUM,CORROSION,2025-11-19,Day,RESOLVED
+9,SMOKE OBSERVED FROM ELECTRICAL CONTROL PANEL.,FLOW STATION,Daniel,ELECTRICAL,HIGH,ELECTRICAL,2026-03-21,Night,RESOLVED
+10,,COMPRESSOR STATION,John,MAINTENANCE,MEDIUM,EQUIPMENT FAILURE,2025-03-26,Night,UNDER INVESTIGATION
+11,Worker slipped on wet surface near loading bay.,TANK FARM,Fatima,ELECTRICAL,MEDIUM,SLIP/FALL,2026-02-05,Day,RESOLVED
+12,Fire extinguisher inspection completed successfully.,STORAGE TERMINAL,Joy,UTILITIES,LOW,INSPECTION,2026-02-05,Day,OPEN
+13,Loose flange bolts discovered during maintenance.,LOADING BAY,Fatima,PIPELINE OPERATIONS,MEDIUM,MECHANICAL,2025-12-27,Day,RESOLVED
+14,Abnormal temperature recorded in processing unit.,COMPRESSOR STATION,Ahmed,PIPELINE OPERATIONS,MEDIUM,EQUIPMENT FAILURE,2025-10-22,Night,CLOSED
+15,  Abnormal temprature recorded in processing unit.  ,WELLHEAD 12,Michael,MAINTENANCE,MEDIUM,EQUIPMENT FAILURE,2026-04-01,Night,RESOLVED
+16,Pressure leak detected on Pipeline 7 during routine inspection.,PIPELINE 7,Michael,MECHANICAL,HIGH,LEAK,2025-07-17,Day,UNDER INVESTIGATION
+17,sensor calibration completed successfully.,TANK FARM,Daniel,HSE,LOW,INSPECTION,2026-03-21,Night,OPEN
+18,Gas detector triggred alarm near compressor station.,STORAGE TERMINAL,Aisha,ELECTRICAL,HIGH,GAS DETECTION,2025-12-30,Day,OPEN
+19,,MANIFOLD,John,ELECTRICAL,LOW,INSPECTION,2026-01-22,Day,RESOLVED
+20,Pressure leak detected on Pipeline 7 during routine inspection.,TANK FARM,David,MECHANICAL,HIGH,LEAK,2025-02-03,Night,RESOLVED
+21,Pump vibration exceeded acceptable threshold.,PIPELINE 7,Daniel,MAINTENANCE,MEDIUM,EQUIPMENT FAILURE,2026-03-06,Day,CLOSED
+22,Pump vibration exceeded acceptable threshold.,LOADING BAY,Grace,PRODUCTION,MEDIUM,EQUIPMENT FAILURE,2025-02-28,Night,UNDER INVESTIGATION
+23,Worker slipped on wet surface near loading bay.,MANIFOLD,Daniel,HSE,MEDIUM,SLIP/FALL,2026-02-03,Night,CLOSED
+24,Abnormal temperature recorded in processing unit.,TANK FARM,Mary,PRODUCTION,MEDIUM,EQUIPMENT FAILURE,2025-06-20,Night,RESOLVED
+25,PRESSURE LEAK DETECTED ON PIPELINE 7 DURING ROUTINE INSPECTION.,GAS PROCESSING UNIT,Michael,MECHANICAL,HIGH,LEAK,2025-01-22,Night,RESOLVED
+26,  Loose flange bolts discovered during maintenance.  ,GAS PROCESSING UNIT,Ahmed,MECHANICAL,MEDIUM,MECHANICAL,2025-11-08,Night,OPEN
+27,Worker slipped on wet surface near loading bay.,COMPRESSOR STATION,Fatima,ELECTRICAL,MEDIUM,SLIP/FALL,2026-06-12,Day,UNDER INVESTIGATION
+28,Abnormal temperature recorded in processing unit.,PIPELINE 8,Mary,UTILITIES,MEDIUM,EQUIPMENT FAILURE,2026-06-12,Night,OPEN
+29,Oil spill discovered near storage tank.,,Mary,INSPECTION,HIGH,OIL SPILL,2025-07-28,Night,UNDER INVESTIGATION
+30,Fire extinguisher inspection completed successfully.,PIPELINE 7,Mary,PRODUCTION,LOW,INSPECTION,2025-07-21,Day,OPEN
+31,Corrosion observed on external pipeline coating.,PLATFORM B,Chinedu,INSPECTION,MEDIUM,CORROSION,2025-03-29,Night,OPEN
+32,Pump vibration exceeded acceptable threshold.,COMPRESSOR STATION,Mary,MAINTENANCE,MEDIUM,EQUIPMENT FAILURE,2025-05-19,Night,RESOLVED
+33,Small hydraulic fluid leak found beneath crane.,REFINERY,Joy,PIPELINE OPERATIONS,MEDIUM,LEAK,2025-09-21,Night,UNDER INVESTIGATION
+34,Fire extinguisher inspection completed successfully.,MANIFOLD,Grace,ELECTRICAL,LOW,INSPECTION,2025-05-10,Day,RESOLVED
+35,Pump vibration exceeded acceptable threshold.,GAS PROCESSING UNIT,Chinedu,PRODUCTION,MEDIUM,EQUIPMENT FAILURE,2025-02-23,Night,RESOLVED
+36,Pump vibration exceeded acceptable threshold.,LOADING BAY,Paul,INSTRUMENTATION,MEDIUM,EQUIPMENT FAILURE,2025-11-20,Night,CLOSED
+37,Sensor calibration completed successfully.,WELLHEAD 12,Fatima,INSPECTION,LOW,INSPECTION,2025-07-05,Night,OPEN
+38,Loose flange bolts discovered during maintainance.,REFINERY,Ibrahim,ELECTRICAL,MEDIUM,MECHANICAL,2025-09-29,Day,RESOLVED
+39,Pump vibration exceeded acceptable threshold.,PIPELINE 8,Blessing,HSE,MEDIUM,EQUIPMENT FAILURE,2025-05-06,Night,UNDER INVESTIGATION
+40,Pressure leak detected on Pipeline 7 during routine inspection.,REFINERY,John,INSTRUMENTATION,HIGH,LEAK,2025-11-02,Day,RESOLVED
+41,Unauthorized personnel entered restricted area.,FLOW STATION,Ahmed,UTILITIES,HIGH,SECURITY,2025-11-02,Night,UNDER INVESTIGATION
+42,Loose flange bolts discovered during maintenance.,WELLHEAD 12,Chinedu,UTILITIES,MEDIUM,MECHANICAL,2025-09-12,Night,UNDER INVESTIGATION
+43,Pump vibration exceeded acceptable threshold.,PIPELINE 7,Michael,PRODUCTION,MEDIUM,EQUIPMENT FAILURE,2025-01-21,Night,RESOLVED
+44,small hydraulic fluid leak found beneath crane.,PIPELINE 12,Samuel,ELECTRICAL,MEDIUM,LEAK,2025-02-13,Night,CLOSED
+45,Pump vibration exceeded acceptable threshold.,CONTROL ROOM,Fatima,INSPECTION,MEDIUM,EQUIPMENT FAILURE,2025-02-02,Night,UNDER INVESTIGATION
+46,Small hydraulic fluid leak found beneath crane.,STORAGE TERMINAL,Blessing,PIPELINE OPERATIONS,MEDIUM,LEAK,2025-11-25,Night,CLOSED
+47,Small hydraulic fluid leak found beneath crane.,MANIFOLD,Aisha,HSE,MEDIUM,LEAK,2025-10-19,Day,RESOLVED
+48,Pump vibration exceeded acceptable threshold.,REFINERY,John,PIPELINE OPERATIONS,MEDIUM,EQUIPMENT FAILURE,2026-05-24,Day,CLOSED
+49,Pressure leak detected on Pipeline 7 during routine inspection.,PLATFORM B,Mary,MAINTENANCE,HIGH,LEAK,2025-07-18,Night,RESOLVED
+50,Loose flange bolts discovered during maintenance.,MANIFOLD,Samuel,INSPECTION,MEDIUM,MECHANICAL,2025-10-17,Day,OPEN
+51,Routine valve maintenance completed without issues.,STORAGE TERMINAL,Mary,ELECTRICAL,LOW,MAINTENANCE,2025-10-14,Day,OPEN
+52,Emergency shutdown activated after pressure surge.,REFINERY,Ibrahim,MECHANICAL,HIGH,EQUIPMENT FAILURE,2025-04-24,Day,RESOLVED
+53,  Sensor calibration completed successfully.  ,LOADING BAY,Ibrahim,ELECTRICAL,LOW,INSPECTION,2026-01-01,Day,RESOLVED
+54,Worker slipped on wet surface near loading bay.,PLATFORM A,Blessing,INSPECTION,MEDIUM,SLIP/FALL,2025-09-05,Day,CLOSED
+55,  smoke observed from electrical control panel.  ,PLATFORM A,Aisha,INSTRUMENTATION,HIGH,ELECTRICAL,2025-01-27,Day,RESOLVED
+56,Emergency shutdown activated after pressure surge.,TANK FARM,Mary,PIPELINE OPERATIONS,HIGH,EQUIPMENT FAILURE,2025-02-12,Day,RESOLVED
+57,Small hydraulic fluid leak found beneath crane.,PLATFORM B,Blessing,MAINTENANCE,MEDIUM,LEAK,2025-11-08,Day,UNDER INVESTIGATION
+58,Emergency shutdown activated after pressure surge.,LOADING BAY,Paul,UTILITIES,HIGH,EQUIPMENT FAILURE,2025-11-08,Day,UNDER INVESTIGATION
+59,Sensor calibration completed successfully.,PIPELINE 12,Samuel,INSPECTION,LOW,INSPECTION,2026-03-01,Day,RESOLVED
+60,Fire extinguisher inspection completed successfully.,COMPRESSOR STATION,Grace,INSTRUMENTATION,LOW,INSPECTION,2025-03-20,Night,OPEN
+61,Oil spill discovered near storage tank.,PIPELINE 12,Samuel,PRODUCTION,HIGH,OIL SPILL,2025-05-10,Day,RESOLVED
+62,  Smoke observed from electrical control panel.  ,CONTROL ROOM,Fatima,ELECTRICAL,HIGH,ELECTRICAL,2025-01-18,Night,UNDER INVESTIGATION
+63,Oil spill discovered near storage tank.,TANK FARM,Grace,INSTRUMENTATION,HIGH,OIL SPILL,2025-02-18,Day,OPEN
+64,  Unauthorized personnel entered restricted area.  ,LOADING BAY,Fatima,PRODUCTION,HIGH,SECURITY,2025-07-30,Night,CLOSED
+65,FIRE EXTINGUISHER INSPECTION COMPLETED SUCCESSFULLY.,PIPELINE 12,Blessing,MECHANICAL,LOW,INSPECTION,2025-07-30,Day,CLOSED
+66,Sensor calibration completed successfully.,FLOW STATION,Aisha,UTILITIES,LOW,INSPECTION,2025-02-03,Day,CLOSED
+67,  Corrosion observed on external pipeline coating.  ,WELLHEAD 12,Ibrahim,INSPECTION,MEDIUM,CORROSION,2026-02-19,Day,OPEN
+68,Worker slipped on wet surface near loading bay.,PIPELINE 8,Samuel,PRODUCTION,MEDIUM,SLIP/FALL,2025-05-18,Day,UNDER INVESTIGATION
+69,  Routine valve maintenance completed without issues.  ,FLOW STATION,Paul,INSPECTION,LOW,MAINTENANCE,2025-09-02,Day,RESOLVED
+70,,LOADING BAY,Michael,PRODUCTION,MEDIUM,EQUIPMENT FAILURE,2025-01-10,Night,UNDER INVESTIGATION
+71,Emergency shutdown activated after pressure surge.,REFINERY,Fatima,INSPECTION,HIGH,EQUIPMENT FAILURE,2025-03-04,Day,OPEN
+72,Gas detector triggered alarm near compressor station.,MANIFOLD,Grace,HSE,HIGH,GAS DETECTION,2025-08-29,Day,OPEN
+73,Sensor calibration completed successfully.,MANIFOLD,Chinedu,ELECTRICAL,LOW,INSPECTION,2025-09-27,Night,UNDER INVESTIGATION
+74,Pump vibration exceeded acceptable threshold.,LOADING BAY,Michael,INSTRUMENTATION,MEDIUM,EQUIPMENT FAILURE,2025-02-04,Night,UNDER INVESTIGATION
+75,Pump vibration exceeded acceptable threshold.,GAS PROCESSING UNIT,Paul,PIPELINE OPERATIONS,MEDIUM,EQUIPMENT FAILURE,2025-12-25,Day,UNDER INVESTIGATION
+76,Gas detector triggred alarm near compressor station.,REFINERY,Ahmed,MAINTENANCE,HIGH,GAS DETECTION,2025-11-30,Night,OPEN
+77,Small hydraulic fluid leak found beneath crane.,STORAGE TERMINAL,Ahmed,ELECTRICAL,MEDIUM,LEAK,2025-07-23,Night,OPEN
+78,Corrosion observed on external pipeline coating.,PLATFORM A,Ahmed,UTILITIES,MEDIUM,CORROSION,2026-03-14,Night,UNDER INVESTIGATION
+79,Emergency shutdown activated after pressure surge.,MANIFOLD,Mary,ELECTRICAL,HIGH,EQUIPMENT FAILURE,2025-06-17,Night,OPEN
+80,Oil spill discovered near storage tank.,GAS PROCESSING UNIT,John,MAINTENANCE,HIGH,OIL SPILL,2025-07-17,Night,CLOSED
+81,Gas detector triggered alarm near compressor station.,PIPELINE 12,Ahmed,PRODUCTION,HIGH,GAS DETECTION,2025-10-04,Day,OPEN
+82,Pump vibration exceeded acceptable threshold.,PIPELINE 7,Blessing,HSE,MEDIUM,EQUIPMENT FAILURE,2026-01-05,Day,UNDER INVESTIGATION
+83,Fire extinguisher inspection completed successfully.,PIPELINE 8,Chinedu,HSE,LOW,INSPECTION,2026-06-16,Day,OPEN
+84,Smoke observed from electrical control panel.,TANK FARM,David,HSE,HIGH,ELECTRICAL,2026-03-27,Day,OPEN
+85,Gas detector triggred alarm near compressor station.,CONTROL ROOM,Aisha,PRODUCTION,HIGH,GAS DETECTION,2026-03-28,Night,UNDER INVESTIGATION
+86,  Emergency shutdown activated after pressure surge.  ,PIPELINE 12,Paul,MAINTENANCE,HIGH,EQUIPMENT FAILURE,2026-02-01,Day,RESOLVED
+87,Corrosion observed on external pipeline coating.,PLATFORM A,Blessing,PIPELINE OPERATIONS,MEDIUM,CORROSION,2026-03-04,Day,OPEN
+88,Worker slipped on wet surface near loading bay.,,David,INSTRUMENTATION,MEDIUM,SLIP/FALL,2025-06-22,Night,UNDER INVESTIGATION
+89,Gas detector triggered alarm near compressor station.,CONTROL ROOM,John,PRODUCTION,HIGH,GAS DETECTION,2026-02-08,Night,OPEN
+90,Emergency shutdown activated after pressure surge.,LOADING BAY,Mary,INSPECTION,HIGH,EQUIPMENT FAILURE,2025-11-14,Night,UNDER INVESTIGATION
+91,PRESSURE LEAK DETECTED ON PIPELINE 7 DURING ROUTINE INSPECTION.,LOADING BAY,,HSE,HIGH,LEAK,2025-10-19,Day,RESOLVED
+92,Corrosion observed on external pipeline coating.,WELLHEAD 12,John,INSTRUMENTATION,MEDIUM,CORROSION,2025-03-09,Day,CLOSED
+93,Emergency shutdown activated after pressure surge.,PIPELINE 7,Mary,INSPECTION,HIGH,EQUIPMENT FAILURE,2025-03-06,Night,CLOSED
+94,Fire extinguisher inspection completed successfully.,STORAGE TERMINAL,Ahmed,INSTRUMENTATION,LOW,INSPECTION,2026-01-09,Day,CLOSED
+95,Gas detector triggered alarm near compressor station.,WELLHEAD 12,John,ELECTRICAL,HIGH,GAS DETECTION,2025-11-15,Day,CLOSED
+96,Emergency shutdown activated after pressure surge.,PIPELINE 7,Michael,ELECTRICAL,HIGH,EQUIPMENT FAILURE,2025-04-11,Day,RESOLVED
+97,SENSOR CALIBRATION COMPLETED SUCCESSFULLY.,GAS PROCESSING UNIT,Blessing,MECHANICAL,LOW,INSPECTION,2026-01-29,Night,CLOSED
+98,EMERGENCY SHUTDOWN ACTIVATED AFTER PRESSURE SURGE.,LOADING BAY,Ibrahim,INSTRUMENTATION,HIGH,EQUIPMENT FAILURE,2025-04-17,Day,OPEN
+99,Corrosion observed on external pipeline coating.,PIPELINE 12,Daniel,MAINTENANCE,MEDIUM,CORROSION,2025-11-06,Night,RESOLVED
+100,Small hydraulic fluid leak found beneath crane.,PLATFORM B,David,INSTRUMENTATION,MEDIUM,LEAK,2025-07-08,Day,OPEN
+101,Smoke observed from electrical control panel.,STORAGE TERMINAL,Chinedu,MAINTENANCE,HIGH,ELECTRICAL,2026-06-17,Day,RESOLVED
+102,Smoke observed from electrical control panel.,LOADING BAY,Grace,ELECTRICAL,HIGH,ELECTRICAL,2026-06-17,Day,UNDER INVESTIGATION
+103,Oil spill discovered near storage tank.,,Joy,MECHANICAL,HIGH,OIL SPILL,2026-01-18,Night,UNDER INVESTIGATION
+104,Corrosion observed on external pipeline coating.,PIPELINE 12,John,UTILITIES,M,CORROSION,2025-02-23,Day,RESOLVED
+105,Sensor calibration completed successfully.,TANK FARM,Joy,INSTRUMENTATION,LOW,INSPECTION,2025-07-01,Day,OPEN
+106,  Corrosion observed on external pipeline coating.  ,STORAGE TERMINAL,Ibrahim,MAINTENANCE,MEDIUM,CORROSION,2026-06-03,Day,RESOLVED
+107,Smoke observed from electrical control panel.,COMPRESSOR STATION,Joy,INSPECTION,HIGH,ELECTRICAL,2026-06-22,Night,UNDER INVESTIGATION
+108,Pump vibration exceeded acceptable threshold.,STORAGE TERMINAL,Daniel,INSTRUMENTATION,MEDIUM,EQUIPMENT FAILURE,2025-10-01,Night,RESOLVED
+109,WORKER SLIPPED ON WET SURFACE NEAR LOADING BAY.,PLATFORM A,Aisha,PIPELINE OPERATIONS,MEDIUM,SLIP/FALL,2026-06-13,Day,UNDER INVESTIGATION
+110,Smoke observed from electrical control panel.,PIPELINE 7,Michael,MAINTENANCE,HIGH,ELECTRICAL,2025-06-21,Night,CLOSED
+111,SENSOR CALIBRATION COMPLETED SUCCESSFULLY.,COMPRESSOR STATION,Blessing,INSPECTION,LOW,INSPECTION,2026-06-05,Day,RESOLVED
+112,Abnormal temperature recorded in processing unit.,LOADING BAY,John,MECHANICAL,MEDIUM,EQUIPMENT FAILURE,2025-06-09,Night,UNDER INVESTIGATION
+113,Emergency shutdown activated after pressure surge.,COMPRESSOR STATION,Daniel,MECHANICAL,HIGH,EQUIPMENT FAILURE,2025-08-19,Day,RESOLVED
+114,Small hydraulic fluid leak found beneath crane.,CONTROL ROOM,Blessing,MECHANICAL,MEDIUM,LEAK,2026-02-10,Night,OPEN
+115,Emergency shutdown activated after pressure surge.,REFINERY,Paul,INSTRUMENTATION,HIGH,EQUIPMENT FAILURE,2025-04-01,Night,RESOLVED
+116,Routine valve maintainance completed without issues.,PIPELINE 7,Aisha,PIPELINE OPERATIONS,LOW,MAINTENANCE,2025-12-28,Night,UNDER INVESTIGATION
+117,Sensor calibration completed successfully.,PLATFORM A,Ahmed,ELECTRICAL,LOW,INSPECTION,2026-05-03,Night,CLOSED
+118,Pressure leak detected on Pipeline 7 during routine inspection.,PIPELINE 12,Michael,MECHANICAL,HIGH,LEAK,2026-05-03,Night,RESOLVED
+119,Emergency shutdown activated after pressure surge.,,John,UTILITIES,HIGH,EQUIPMENT FAILURE,2025-05-09,Night,UNDER INVESTIGATION
+120,Abnormal temperature recorded in processing unit.,PLATFORM B,Daniel,PRODUCTION,MEDIUM,EQUIPMENT FAILURE,2025-12-21,Day,OPEN
+121,Gas detector triggered alarm near compressor station.,COMPRESSOR STATION,Michael,ELECTRICAL,HIGH,GAS DETECTION,2025-01-11,Night,RESOLVED
+122,Fire extinguisher inspection completed successfully.,GAS PROCESSING UNIT,Samuel,PRODUCTION,LOW,INSPECTION,2025-07-12,Day,UNDER INVESTIGATION
+123,Corrosion observed on external pipeline coating.,TANK FARM,,INSTRUMENTATION,MEDIUM,CORROSION,2026-05-16,Day,RESOLVED
+124,Gas detector triggered alarm near compressor station.,TANK FARM,Mary,INSTRUMENTATION,HIGH,GAS DETECTION,2025-04-15,Day,UNDER INVESTIGATION
+125,Gas detector triggered alarm near compressor station.,GAS PROCESSING UNIT,Aisha,UTILITIES,HIGH,GAS DETECTION,2025-06-29,Day,OPEN
+126,Loose flange bolts discovered during maintenance.,PIPELINE 8,Ibrahim,MECHANICAL,MEDIUM,MECHANICAL,2025-06-29,Night,OPEN
+127,Fire extinguisher inspection completed successfully.,PIPELINE 7,Aisha,HSE,LOW,INSPECTION,2026-06-04,Night,RESOLVED
+128,  Loose flange bolts discovered during maintenance.  ,CONTROL ROOM,Ahmed,UTILITIES,M,MECHANICAL,2026-01-12,Night,OPEN
+129,Pump vibration exceeded acceptable threshold.,STORAGE TERMINAL,Michael,PRODUCTION,MEDIUM,EQUIPMENT FAILURE,2025-01-28,Night,RESOLVED
+130,Abnormal temperature recorded in processing unit.,TANK FARM,John,INSPECTION,MEDIUM,EQUIPMENT FAILURE,2025-10-21,Night,UNDER INVESTIGATION
+131,Worker slipped on wet surface near loading bay.,TANK FARM,Chinedu,MECHANICAL,MEDIUM,SLIP/FALL,2026-01-05,Day,OPEN
+132,Unauthorized personnel entered restricted area.,WELLHEAD 12,Paul,MAINTENANCE,HIGH,SECURITY,2025-08-01,Night,CLOSED
+133,small hydraulic fluid leak found beneath crane.,WELLHEAD 12,,INSPECTION,MEDIUM,LEAK,2025-11-16,Day,CLOSED
+134,Routine valve maintenance completed without issues.,WELLHEAD 12,Joy,UTILITIES,LOW,MAINTENANCE,2026-05-03,Night,RESOLVED
+135,Sensor calibration completed successfully.,MANIFOLD,David,INSTRUMENTATION,LOW,INSPECTION,2025-10-28,Day,RESOLVED
+136,Loose flange bolts discovered during maintenance.,WELLHEAD 12,Aisha,UTILITIES,MEDIUM,MECHANICAL,2026-01-27,Day,CLOSED
+137,Sensor calibration completed successfully.,PIPELINE 7,Michael,INSTRUMENTATION,L,INSPECTION,2026-06-06,Night,UNDER INVESTIGATION
+138,,PLATFORM A,Joy,HSE,HIGH,SECURITY,2025-06-29,Day,RESOLVED
+139,  Sensor calibration completed successfully.  ,GAS PROCESSING UNIT,Aisha,INSTRUMENTATION,LOW,INSPECTION,2025-03-06,Night,RESOLVED
+140,  Small hydraulic fluid leak found beneath crane.  ,LOADING BAY,,MAINTENANCE,MEDIUM,LEAK,2025-06-22,Night,CLOSED
+141,Worker slipped on wet surface near loading bay.,FLOW STATION,David,INSTRUMENTATION,MEDIUM,SLIP/FALL,2025-06-08,Day,RESOLVED
+142,OIL SPILL DISCOVERED NEAR STORAGE TANK.,STORAGE TERMINAL,Grace,INSPECTION,HIGH,OIL SPILL,2025-10-31,Day,OPEN
+143,Sensor calibration completed successfully.,CONTROL ROOM,David,INSPECTION,LOW,INSPECTION,2026-04-04,Day,CLOSED
+144,Worker slipped on wet surface near loading bay.,FLOW STATION,Fatima,MAINTENANCE,MEDIUM,SLIP/FALL,2025-11-30,Day,OPEN
+145,Corrosion observed on external pipeline coating.,PIPELINE 7,Fatima,INSPECTION,MEDIUM,CORROSION,2025-11-30,Day,RESOLVED
+146,Fire extinguisher inspection completed successfully.,PIPELINE 12,Aisha,ELECTRICAL,LOW,INSPECTION,2026-06-21,Day,CLOSED
+147,Emergency shutdown activated after pressure surge.,PIPELINE 8,Ibrahim,MAINTENANCE,HIGH,EQUIPMENT FAILURE,2025-09-01,Night,CLOSED
+148,Routine valve maintenance completed without issues.,FLOW STATION,Michael,UTILITIES,LOW,MAINTENANCE,2026-02-14,Day,RESOLVED
+149,Oil spill discovered near storage tank.,REFINERY,Ibrahim,MAINTENANCE,HIGH,OIL SPILL,2025-05-28,Day,CLOSED
+150,Oil spill discovered near storage tank.,GAS PROCESSING UNIT,Daniel,MECHANICAL,HIGH,OIL SPILL,2026-06-02,Day,CLOSED
+151,Worker slipped on wet surface near loading bay.,COMPRESSOR STATION,Michael,INSPECTION,MEDIUM,SLIP/FALL,2026-05-26,Day,OPEN
+152,  Oil spill discovered near storage tank.  ,LOADING BAY,Michael,PIPELINE OPERATIONS,HIGH,OIL SPILL,2026-05-26,Night,CLOSED
+153,abnormal temprature recorded in processing unit.,LOADING BAY,Joy,INSPECTION,MEDIUM,EQUIPMENT FAILURE,2026-03-19,Day,UNDER INVESTIGATION
+154,Oil spill discovered near storage tank.,COMPRESSOR STATION,David,HSE,H,OIL SPILL,2025-08-30,Day,CLOSED
+155,Corrosion observed on external pipeline coating.,PIPELINE 7,Daniel,PRODUCTION,MEDIUM,CORROSION,2026-02-24,Night,RESOLVED
+156,Gas detector triggered alarm near compressor station.,PIPELINE 12,Samuel,UTILITIES,HIGH,GAS DETECTION,2026-06-01,Day,RESOLVED
+157,Abnormal temperature recorded in processing unit.,PLATFORM B,Aisha,MECHANICAL,MEDIUM,EQUIPMENT FAILURE,2025-01-25,Day,UNDER INVESTIGATION
+158,Pump vibration exceeded acceptable threshold.,PIPELINE 12,Samuel,MECHANICAL,MEDIUM,EQUIPMENT FAILURE,2025-01-25,Day,RESOLVED
+159,Routine valve maintenance completed without issues.,TANK FARM,Fatima,PRODUCTION,LOW,MAINTENANCE,2025-08-25,Night,UNDER INVESTIGATION
+160,oil spill discovered near storage tank.,STORAGE TERMINAL,Mary,PRODUCTION,HIGH,OIL SPILL,2025-04-16,Day,UNDER INVESTIGATION
+161,Pump vibration exceeded acceptable threshold.,CONTROL ROOM,Samuel,MECHANICAL,MEDIUM,EQUIPMENT FAILURE,2026-02-01,Day,CLOSED
+162,Corrosion observed on external pipeline coating.,PIPELINE 12,Daniel,UTILITIES,MEDIUM,CORROSION,2025-07-31,Night,CLOSED
+163,Loose flange bolts discovered during maintenance.,FLOW STATION,Daniel,ELECTRICAL,MEDIUM,MECHANICAL,2025-09-07,Night,UNDER INVESTIGATION
+164,FIRE EXTINGUISHER INSPECTION COMPLETED SUCCESSFULLY.,PIPELINE 12,David,UTILITIES,LOW,INSPECTION,2026-02-09,Night,OPEN
+165,Small hydraulic fluid leak found beneath crane.,MANIFOLD,Grace,MECHANICAL,MEDIUM,LEAK,2025-08-19,Day,CLOSED
+166,,TANK FARM,Samuel,UTILITIES,HIGH,SECURITY,2025-01-04,Night,UNDER INVESTIGATION
+167,Routine valve maintenance completed without issues.,LOADING BAY,John,INSPECTION,LOW,MAINTENANCE,2025-01-24,Night,CLOSED
+168,Sensor calibration completed successfully.,PLATFORM B,Michael,MECHANICAL,LOW,INSPECTION,2025-07-06,Day,CLOSED
+169,Abnormal temprature recorded in processing unit.,PIPELINE 12,Michael,HSE,MEDIUM,EQUIPMENT FAILURE,2026-02-15,Night,OPEN
+170,Fire extinguisher inspection completed successfully.,STORAGE TERMINAL,Ibrahim,HSE,LOW,INSPECTION,2025-11-29,Day,OPEN
+171,Corrosion observed on external pipeline coating.,GAS PROCESSING UNIT,Joy,MECHANICAL,MEDIUM,CORROSION,2025-11-06,Day,UNDER INVESTIGATION
+172,worker slipped on wet surface near loading bay.,REFINERY,David,MECHANICAL,MEDIUM,SLIP/FALL,2026-05-08,Day,OPEN
+173,Corrosion observed on external pipeline coating.,PIPELINE 12,Samuel,INSTRUMENTATION,MEDIUM,CORROSION,2025-08-23,Day,RESOLVED
+174,Presssure leak detected on Pipline 7 during routine inspection.,MANIFOLD,Paul,UTILITIES,HIGH,LEAK,2025-05-15,Day,CLOSED
+175,Pressure leak detected on Pipeline 7 during routine inspection.,GAS PROCESSING UNIT,Aisha,PRODUCTION,HIGH,LEAK,2026-06-07,Night,RESOLVED
+176,Oil spill discovered near storage tank.,LOADING BAY,Blessing,INSPECTION,HIGH,OIL SPILL,2025-11-29,Night,CLOSED
+177,Abnormal temperature recorded in processing unit.,STORAGE TERMINAL,Grace,INSPECTION,MEDIUM,EQUIPMENT FAILURE,2025-02-05,Day,UNDER INVESTIGATION
+178,Oil spill discovered near storage tank.,CONTROL ROOM,Samuel,HSE,HIGH,OIL SPILL,2025-05-21,Night,UNDER INVESTIGATION
+179,Worker slipped on wet surface near loading bay.,PLATFORM A,Michael,PRODUCTION,MEDIUM,SLIP/FALL,2026-01-17,Day,UNDER INVESTIGATION
+180,,STORAGE TERMINAL,Samuel,PIPELINE OPERATIONS,HIGH,GAS DETECTION,2025-01-22,Night,OPEN
+181,Emergency shutdown activated after pressure surge.,STORAGE TERMINAL,Ibrahim,UTILITIES,HIGH,EQUIPMENT FAILURE,2025-04-19,Day,CLOSED
+182,Loose flange bolts discovered during maintainance.,FLOW STATION,Paul,HSE,MEDIUM,MECHANICAL,2026-02-26,Day,RESOLVED
+183,Unauthorized personnel entered restricted area.,LOADING BAY,David,INSPECTION,HIGH,SECURITY,2025-12-05,Night,RESOLVED
+184,Unauthorized personnel entered restricted area.,GAS PROCESSING UNIT,Joy,HSE,HIGH,SECURITY,2026-05-13,Night,UNDER INVESTIGATION
+185,Worker slipped on wet surface near loading bay.,WELLHEAD 12,Samuel,ELECTRICAL,MEDIUM,SLIP/FALL,2025-03-08,Day,CLOSED
+186,Emergency shutdown activated after pressure surge.,REFINERY,Ahmed,PIPELINE OPERATIONS,HIGH,EQUIPMENT FAILURE,2026-01-05,Night,RESOLVED
+187,Emergency shutdown activated after pressure surge.,PLATFORM A,Grace,UTILITIES,HIGH,EQUIPMENT FAILURE,2025-01-26,Day,CLOSED
+188,,CONTROL ROOM,Chinedu,MAINTENANCE,MEDIUM,SLIP/FALL,2025-09-26,Day,RESOLVED
+189,Worker slipped on wet surface near loading bay.,MANIFOLD,Chinedu,ELECTRICAL,MEDIUM,SLIP/FALL,2026-01-27,Night,CLOSED
+190,Smoke observed from electrical control panel.,PIPELINE 7,Aisha,INSPECTION,HIGH,ELECTRICAL,2025-06-13,Day,OPEN
+191,Loose flange bolts discovered during maintenance.,WELLHEAD 12,Fatima,UTILITIES,MEDIUM,MECHANICAL,2025-07-28,Night,RESOLVED
+192,Abnormal temprature recorded in processing unit.,MANIFOLD,Aisha,ELECTRICAL,MEDIUM,EQUIPMENT FAILURE,2025-11-15,Night,CLOSED
+193,Loose flange bolts discovered during maintenance.,STORAGE TERMINAL,Ibrahim,MAINTENANCE,MEDIUM,MECHANICAL,2025-12-02,Day,UNDER INVESTIGATION
+194,Abnormal temperature recorded in processing unit.,GAS PROCESSING UNIT,Chinedu,PIPELINE OPERATIONS,MEDIUM,EQUIPMENT FAILURE,2025-12-02,Night,UNDER INVESTIGATION
+195,Sensor calibration completed successfully.,WELLHEAD 12,Joy,PRODUCTION,LOW,INSPECTION,2025-01-19,Night,OPEN
+196,Unauthorized personnel entered restricted area.,MANIFOLD,Ahmed,PIPELINE OPERATIONS,HIGH,SECURITY,2026-02-16,Day,CLOSED
+197,Small hydraulic fluid leak found beneath crane.,PIPELINE 8,Michael,UTILITIES,MEDIUM,LEAK,2025-07-14,Night,CLOSED
+198,Corrosion observed on external pipeline coating.,FLOW STATION,Grace,MECHANICAL,MEDIUM,CORROSION,2025-01-24,Day,OPEN
+199,Abnormal temperature recorded in processing unit.,PLATFORM A,Samuel,UTILITIES,MEDIUM,EQUIPMENT FAILURE,2025-01-24,Day,RESOLVED
+200,,WELLHEAD 12,Chinedu,INSPECTION,MEDIUM,LEAK,2025-01-24,Night,OPEN
+201,Routine valve maintenance completed without issues.,PIPELINE 8,Daniel,UTILITIES,LOW,MAINTENANCE,2025-03-16,Day,RESOLVED
+202,Unauthorized personnel entered restricted area.,COMPRESSOR STATION,Grace,ELECTRICAL,HIGH,SECURITY,2025-05-24,Day,CLOSED
+203,,PIPELINE 12,Aisha,HSE,MEDIUM,CORROSION,2025-11-10,Day,CLOSED
+204,Corrosion observed on external pipeline coating.,PIPELINE 7,Daniel,HSE,MEDIUM,CORROSION,2026-01-17,Night,OPEN
+205,Corrosion observed on external pipeline coating.,COMPRESSOR STATION,Blessing,HSE,MEDIUM,CORROSION,2025-01-15,Day,UNDER INVESTIGATION
+206,Gas detector triggred alarm near compressor station.,FLOW STATION,Daniel,ELECTRICAL,HIGH,GAS DETECTION,2026-06-13,Night,CLOSED
+207,Pump vibration exceeded acceptable threshold.,CONTROL ROOM,Fatima,MECHANICAL,MEDIUM,EQUIPMENT FAILURE,2025-08-03,Night,RESOLVED
+208,Pressure leak detected on Pipeline 7 during routine inspection.,PIPELINE 8,Joy,PIPELINE OPERATIONS,HIGH,LEAK,2025-04-21,Day,RESOLVED
+209,Fire extinguisher inspection completed successfully.,PLATFORM A,Mary,ELECTRICAL,LOW,INSPECTION,2025-01-11,Day,UNDER INVESTIGATION
+210,Small hydraulic fluid leak found beneath crane.,MANIFOLD,Michael,MAINTENANCE,MEDIUM,LEAK,2025-06-17,Night,UNDER INVESTIGATION
+211,Gas detector triggered alarm near compressor station.,MANIFOLD,Paul,MECHANICAL,HIGH,GAS DETECTION,2025-01-19,Day,UNDER INVESTIGATION
+212,,COMPRESSOR STATION,Aisha,HSE,MEDIUM,MECHANICAL,2026-02-25,Night,UNDER INVESTIGATION
+213,Gas detector triggered alarm near compressor station.,PIPELINE 12,Samuel,MAINTENANCE,HIGH,GAS DETECTION,2025-11-13,Night,RESOLVED
+214,Emergency shutdown activated after pressure surge.,LOADING BAY,Paul,HSE,HIGH,EQUIPMENT FAILURE,2025-06-23,Day,CLOSED
+215,Sensor calibration completed successfully.,LOADING BAY,Samuel,UTILITIES,LOW,INSPECTION,2025-03-15,Day,RESOLVED
+216,Smoke observed from electrical control panel.,CONTROL ROOM,Grace,MECHANICAL,HIGH,ELECTRICAL,2026-02-09,Day,RESOLVED
+217,,TANK FARM,Mary,ELECTRICAL,HIGH,OIL SPILL,2025-10-15,Day,OPEN
+218,Routine valve maintenance completed without issues.,LOADING BAY,Michael,MAINTENANCE,LOW,MAINTENANCE,2026-05-07,Night,CLOSED
+219,Emergency shutdown activated after pressure surge.,WELLHEAD 12,Ahmed,PRODUCTION,HIGH,EQUIPMENT FAILURE,2025-10-08,Day,CLOSED
+220,gas detector triggered alarm near compressor station.,PIPELINE 8,Chinedu,HSE,HIGH,GAS DETECTION,2025-12-12,Day,UNDER INVESTIGATION
+221,Smoke observed from electrical control panel.,LOADING BAY,Ibrahim,HSE,HIGH,ELECTRICAL,2025-03-22,Day,OPEN
+222,Smoke observed from electrical control panel.,COMPRESSOR STATION,,UTILITIES,HIGH,ELECTRICAL,2026-03-12,Day,UNDER INVESTIGATION
+223,Loose flange bolts discovered during maintenance.,CONTROL ROOM,Grace,HSE,MEDIUM,MECHANICAL,2026-04-18,Day,RESOLVED
+224,Gas detector triggered alarm near compressor station.,PLATFORM A,Grace,MAINTENANCE,HIGH,GAS DETECTION,2026-06-09,Night,CLOSED
+225,Pump vibration exceeded acceptable threshold.,PIPELINE 12,David,PRODUCTION,MEDIUM,EQUIPMENT FAILURE,2026-02-18,Night,CLOSED
+226,Fire extinguisher inspection completed successfully.,GAS PROCESSING UNIT,Paul,MECHANICAL,LOW,INSPECTION,2025-06-12,Day,UNDER INVESTIGATION
+227,Abnormal temprature recorded in processing unit.,STORAGE TERMINAL,John,INSPECTION,MEDIUM,EQUIPMENT FAILURE,2026-03-25,Night,CLOSED
+228,Loose flange bolts discovered during maintenance.,PLATFORM B,David,HSE,MEDIUM,MECHANICAL,2025-02-27,Day,RESOLVED
+229,Corrosion observed on external pipeline coating.,PIPELINE 7,Paul,PIPELINE OPERATIONS,MEDIUM,CORROSION,2026-01-09,Night,CLOSED
+230,  Smoke observed from electrical control panel.  ,REFINERY,Blessing,PRODUCTION,HIGH,ELECTRICAL,2025-07-18,Night,CLOSED
+231,Presssure leak detected on Pipline 7 during routine inspection.,CONTROL ROOM,Mary,MAINTENANCE,HIGH,LEAK,2025-05-06,Day,CLOSED
+232,Sensor calibration completed successfully.,COMPRESSOR STATION,Paul,ELECTRICAL,LOW,INSPECTION,2026-06-15,Day,OPEN
+233,SMOKE OBSERVED FROM ELECTRICAL CONTROL PANEL.,PIPELINE 8,Grace,MECHANICAL,HIGH,ELECTRICAL,2026-05-06,Night,CLOSED
+234,Small hydraulic fluid leak found beneath crane.,REFINERY,Paul,MECHANICAL,MEDIUM,LEAK,2025-04-07,Day,UNDER INVESTIGATION
+235,Corrosion observed on external pipeline coating.,MANIFOLD,Daniel,INSTRUMENTATION,MEDIUM,CORROSION,2025-12-18,Day,CLOSED
+236,Worker slipped on wet surface near loading bay.,PLATFORM A,Blessing,HSE,MEDIUM,SLIP/FALL,2025-07-02,Night,OPEN
+237,Fire extinguisher inspection completed successfully.,CONTROL ROOM,Michael,UTILITIES,LOW,INSPECTION,2026-05-24,Night,UNDER INVESTIGATION
+238,Loose flange bolts discovered during maintenance.,PIPELINE 12,Joy,PRODUCTION,MEDIUM,MECHANICAL,2025-08-20,Night,UNDER INVESTIGATION
+239,Smoke observed from electrical control panel.,PIPELINE 8,Blessing,INSPECTION,HIGH,ELECTRICAL,2026-01-16,Day,CLOSED
+240,Oil spill discovered near storage tank.,WELLHEAD 12,Daniel,INSTRUMENTATION,HIGH,OIL SPILL,2025-02-06,Night,RESOLVED
+241,Corrosion observed on external pipeline coating.,,Paul,INSTRUMENTATION,MEDIUM,CORROSION,2025-05-04,Night,UNDER INVESTIGATION
+242,Gas detector triggered alarm near compressor station.,LOADING BAY,Grace,INSPECTION,HIGH,GAS DETECTION,2025-02-15,Day,CLOSED
+243,  WORKER SLIPPED ON WET SURFACE NEAR LOADING BAY.  ,PLATFORM B,,HSE,MEDIUM,SLIP/FALL,2025-07-11,Day,OPEN
+244,Oil spill discovered near storage tank.,COMPRESSOR STATION,David,INSTRUMENTATION,HIGH,OIL SPILL,2025-03-25,Day,UNDER INVESTIGATION
+245,Emergency shutdown activated after pressure surge.,REFINERY,Ibrahim,UTILITIES,HIGH,EQUIPMENT FAILURE,2025-11-14,Night,RESOLVED
+246,Fire extinguisher inspection completed successfully.,PIPELINE 12,Ahmed,MAINTENANCE,LOW,INSPECTION,2025-04-05,Night,OPEN
+247,  Pump vibration exceeded acceptable threshold.  ,PLATFORM A,Blessing,PIPELINE OPERATIONS,MEDIUM,EQUIPMENT FAILURE,2025-01-06,Night,CLOSED
+248,  Unauthorized personnel entered restricted area.  ,LOADING BAY,Blessing,PRODUCTION,H,SECURITY,2025-08-16,Night,UNDER INVESTIGATION
+249,Unauthorized personnel entered restricted area.,FLOW STATION,David,MAINTENANCE,HIGH,SECURITY,2025-11-12,Day,RESOLVED
+250,Loose flange bolts discovered during maintenance.,COMPRESSOR STATION,John,HSE,MEDIUM,MECHANICAL,2025-10-22,Night,RESOLVED
+251,,LOADING BAY,Aisha,ELECTRICAL,HIGH,LEAK,2025-03-03,Night,OPEN
+252,Oil spill discovered near storage tank.,MANIFOLD,Aisha,ELECTRICAL,HIGH,OIL SPILL,2025-08-11,Day,RESOLVED
+253,ABNORMAL TEMPERATURE RECORDED IN PROCESSING UNIT.,PIPELINE 7,Michael,HSE,MEDIUM,EQUIPMENT FAILURE,2025-09-29,Night,RESOLVED
+254,Oil spill discovered near storage tank.,STORAGE TERMINAL,Michael,ELECTRICAL,HIGH,OIL SPILL,2025-07-14,Day,RESOLVED
+255,Fire extinguisher inspection completed successfully.,PLATFORM A,John,MAINTENANCE,LOW,INSPECTION,2025-10-04,Night,RESOLVED
+256,Pressure leak detected on Pipeline 7 during routine inspection.,TANK FARM,David,ELECTRICAL,HIGH,LEAK,2025-02-02,Day,RESOLVED
+257,,MANIFOLD,Daniel,UTILITIES,MEDIUM,SLIP/FALL,2025-12-31,Night,UNDER INVESTIGATION
+258,Loose flange bolts discovered during maintenance.,COMPRESSOR STATION,Fatima,PIPELINE OPERATIONS,MEDIUM,MECHANICAL,2025-04-29,Day,UNDER INVESTIGATION
+259,OIL SPILL DISCOVERED NEAR STORAGE TANK.,PLATFORM A,Mary,UTILITIES,HIGH,OIL SPILL,2025-09-13,Night,UNDER INVESTIGATION
+260,small hydraulic fluid leak found beneath crane.,COMPRESSOR STATION,Joy,ELECTRICAL,MEDIUM,LEAK,2025-08-19,Night,RESOLVED
+261,,STORAGE TERMINAL,Fatima,INSTRUMENTATION,LOW,INSPECTION,2025-12-31,Night,RESOLVED
+262,Loose flange bolts discovered during maintenance.,PIPELINE 7,Chinedu,PRODUCTION,MEDIUM,MECHANICAL,2026-01-24,Day,UNDER INVESTIGATION
+263,Smoke observed from electrical control panel.,MANIFOLD,Samuel,PRODUCTION,HIGH,ELECTRICAL,2025-10-08,Night,OPEN
+264,Gas detector triggred alarm near compressor station.,PIPELINE 12,Samuel,UTILITIES,HIGH,GAS DETECTION,2025-05-28,Night,OPEN
+265,Emergency shutdown activated after pressure surge.,FLOW STATION,Daniel,INSPECTION,HIGH,EQUIPMENT FAILURE,2025-12-31,Day,RESOLVED
+266,Gas detector triggered alarm near compressor station.,MANIFOLD,Daniel,INSTRUMENTATION,HIGH,GAS DETECTION,2025-02-25,Night,CLOSED
+267,Abnormal temprature recorded in processing unit.,MANIFOLD,Blessing,INSPECTION,MEDIUM,EQUIPMENT FAILURE,2025-02-25,Day,CLOSED
+268,Worker slipped on wet surface near loading bay.,PIPELINE 7,Daniel,PIPELINE OPERATIONS,MEDIUM,SLIP/FALL,2025-06-11,Day,CLOSED
+269,  Pump vibration exceeded acceptable threshold.  ,PIPELINE 7,Mary,INSPECTION,MEDIUM,EQUIPMENT FAILURE,2026-05-05,Night,UNDER INVESTIGATION
+270,Worker slipped on wet surface near loading bay.,TANK FARM,John,MAINTENANCE,MEDIUM,SLIP/FALL,2026-03-16,Day,OPEN
+271,Loose flange bolts discovered during maintenance.,PLATFORM B,Chinedu,PRODUCTION,MEDIUM,MECHANICAL,2025-03-10,Day,OPEN
+272,pump vibration exceeded acceptable threshold.,PIPELINE 12,Daniel,MECHANICAL,MEDIUM,EQUIPMENT FAILURE,2026-06-21,Night,RESOLVED
+273,,,Grace,PRODUCTION,HIGH,LEAK,2025-06-20,Day,RESOLVED
+274,Sensor calibration completed successfully.,CONTROL ROOM,Blessing,INSPECTION,LOW,INSPECTION,2025-08-03,Day,UNDER INVESTIGATION
+275,UNAUTHORIZED PERSONNEL ENTERED RESTRICTED AREA.,PIPELINE 7,Ibrahim,MECHANICAL,HIGH,SECURITY,2026-04-16,Night,UNDER INVESTIGATION
+276,Gas detector triggered alarm near compressor station.,PIPELINE 12,Ibrahim,MECHANICAL,HIGH,GAS DETECTION,2025-08-29,Day,RESOLVED
+277,Pump vibration exceeded acceptable threshold.,COMPRESSOR STATION,Grace,INSTRUMENTATION,MEDIUM,EQUIPMENT FAILURE,2025-12-01,Night,CLOSED
+278,  Pump vibration exceeded acceptable threshold.  ,PIPELINE 8,Daniel,PIPELINE OPERATIONS,MEDIUM,EQUIPMENT FAILURE,2026-01-26,Day,RESOLVED
+279,Abnormal temperature recorded in processing unit.,PLATFORM B,Mary,UTILITIES,MEDIUM,EQUIPMENT FAILURE,2025-11-21,Night,OPEN
+280,Abnormal temperature recorded in processing unit.,TANK FARM,Blessing,PIPELINE OPERATIONS,MEDIUM,EQUIPMENT FAILURE,2025-07-08,Night,RESOLVED
+281,small hydraulic fluid leak found beneath crane.,GAS PROCESSING UNIT,Ibrahim,MECHANICAL,MEDIUM,LEAK,2026-06-20,Night,UNDER INVESTIGATION
+282,  Sensor calibration completed successfully.  ,FLOW STATION,Fatima,ELECTRICAL,LOW,INSPECTION,2026-05-11,Day,RESOLVED
+283,  Pump vibration exceeded acceptable threshold.  ,LOADING BAY,Ibrahim,PRODUCTION,MEDIUM,EQUIPMENT FAILURE,2025-10-10,Night,CLOSED
+284,Corrosion observed on external pipeline coating.,FLOW STATION,Aisha,INSPECTION,MEDIUM,CORROSION,2025-12-16,Night,OPEN
+285,Routine valve maintenance completed without issues.,FLOW STATION,Michael,MECHANICAL,LOW,MAINTENANCE,2025-12-07,Day,OPEN
+286,Routine valve maintenance completed without issues.,PIPELINE 7,David,PRODUCTION,LOW,MAINTENANCE,2026-02-12,Day,UNDER INVESTIGATION
+287,Worker slipped on wet surface near loading bay.,MANIFOLD,David,MAINTENANCE,MEDIUM,SLIP/FALL,2025-04-17,Day,OPEN
+288,PUMP VIBRATION EXCEEDED ACCEPTABLE THRESHOLD.,MANIFOLD,Fatima,ELECTRICAL,MEDIUM,EQUIPMENT FAILURE,2025-07-16,Night,RESOLVED
+289,Oil spill discovered near storage tank.,MANIFOLD,Grace,ELECTRICAL,HIGH,OIL SPILL,2025-07-16,Night,UNDER INVESTIGATION
+290,Worker slipped on wet surface near loading bay.,FLOW STATION,Joy,INSTRUMENTATION,MEDIUM,SLIP/FALL,2025-10-06,Day,OPEN
+291,Gas detector triggered alarm near compressor station.,PLATFORM A,Chinedu,MECHANICAL,HIGH,GAS DETECTION,2025-02-24,Day,CLOSED
+292,Fire extinguisher inspection completed successfully.,LOADING BAY,Blessing,PRODUCTION,LOW,INSPECTION,2025-11-24,Night,OPEN
+293,Oil spill discovered near storage tank.,PIPELINE 7,John,ELECTRICAL,HIGH,OIL SPILL,2025-07-18,Day,UNDER INVESTIGATION
+294,EMERGENCY SHUTDOWN ACTIVATED AFTER PRESSURE SURGE.,MANIFOLD,Mary,HSE,HIGH,EQUIPMENT FAILURE,2026-01-18,Night,UNDER INVESTIGATION
+295,  Fire extinguisher inspection completed successfully.  ,STORAGE TERMINAL,Samuel,HSE,LOW,INSPECTION,2026-06-15,Day,OPEN
+296,Sensor calibration completed successfully.,REFINERY,David,PIPELINE OPERATIONS,L,INSPECTION,2025-07-25,Night,RESOLVED
+297,Worker slipped on wet surface near loading bay.,TANK FARM,Fatima,INSTRUMENTATION,MEDIUM,SLIP/FALL,2025-05-16,Day,CLOSED
+298,Unauthorized personnel entered restricted area.,TANK FARM,David,INSPECTION,HIGH,SECURITY,2026-02-28,Night,UNDER INVESTIGATION
+299,Loose flange bolts discovered during maintenance.,CONTROL ROOM,Mary,ELECTRICAL,MEDIUM,MECHANICAL,2026-06-13,Night,UNDER INVESTIGATION
+300,Loose flange bolts discovered during maintenance.,TANK FARM,Joy,ELECTRICAL,M,MECHANICAL,2025-09-05,Day,UNDER INVESTIGATION
+301,Emergency shutdown activated after pressure surge.,PIPELINE 7,Michael,MECHANICAL,HIGH,EQUIPMENT FAILURE,2025-09-05,Day,OPEN
+302,Gas detector triggered alarm near compressor station.,CONTROL ROOM,Michael,INSPECTION,HIGH,GAS DETECTION,2025-08-17,Night,CLOSED
+303,Gas detector triggered alarm near compressor station.,FLOW STATION,Blessing,INSPECTION,HIGH,GAS DETECTION,2025-08-17,Day,OPEN
+304,unauthorized personnel entered restricted area.,COMPRESSOR STATION,Joy,MAINTENANCE,HIGH,SECURITY,2025-06-25,Day,RESOLVED
+305,Emergency shutdown activated after pressure surge.,STORAGE TERMINAL,Grace,INSPECTION,HIGH,EQUIPMENT FAILURE,2026-05-24,Day,OPEN
+306,Smoke observed from electrical control panel.,PIPELINE 8,Samuel,UTILITIES,HIGH,ELECTRICAL,2025-09-04,Day,RESOLVED
+307,Loose flange bolts discovered during maintenance.,REFINERY,Fatima,UTILITIES,MEDIUM,MECHANICAL,2025-02-08,Day,OPEN
+308,Emergency shutdown activated after pressure surge.,MANIFOLD,Mary,HSE,HIGH,EQUIPMENT FAILURE,2025-02-08,Night,OPEN
+309,SMOKE OBSERVED FROM ELECTRICAL CONTROL PANEL.,WELLHEAD 12,Ahmed,ELECTRICAL,HIGH,ELECTRICAL,2025-12-02,Night,OPEN
+310,Pump vibration exceeded acceptable threshold.,TANK FARM,Grace,MECHANICAL,MEDIUM,EQUIPMENT FAILURE,2025-09-24,Night,CLOSED
+311,Pressure leak detected on Pipeline 7 during routine inspection.,REFINERY,Ahmed,PIPELINE OPERATIONS,HIGH,LEAK,2025-06-28,Night,OPEN
+312,Routine valve maintenance completed without issues.,GAS PROCESSING UNIT,Daniel,MECHANICAL,LOW,MAINTENANCE,2026-06-10,Day,RESOLVED
+313,Emergency shutdown activated after pressure surge.,FLOW STATION,Ibrahim,UTILITIES,HIGH,EQUIPMENT FAILURE,2026-05-02,Night,UNDER INVESTIGATION
+314,  Pump vibration exceeded acceptable threshold.  ,GAS PROCESSING UNIT,Chinedu,HSE,MEDIUM,EQUIPMENT FAILURE,2026-06-25,Night,UNDER INVESTIGATION
+315,,PLATFORM B,Paul,INSTRUMENTATION,MEDIUM,EQUIPMENT FAILURE,2025-07-21,Day,OPEN
+316,Small hydraulic fluid leak found beneath crane.,PIPELINE 12,Blessing,UTILITIES,MEDIUM,LEAK,2025-04-10,Night,UNDER INVESTIGATION
+317,Loose flange bolts discovered during maintenance.,PIPELINE 8,David,UTILITIES,MEDIUM,MECHANICAL,2025-04-16,Night,CLOSED
+318,Sensor calibration completed successfully.,COMPRESSOR STATION,David,UTILITIES,LOW,INSPECTION,2025-01-05,Night,UNDER INVESTIGATION
+319,Gas detector triggered alarm near compressor station.,COMPRESSOR STATION,Joy,UTILITIES,HIGH,GAS DETECTION,2025-01-05,Night,OPEN
+320,Loose flange bolts discovered during maintenance.,PIPELINE 7,Ahmed,INSTRUMENTATION,MEDIUM,MECHANICAL,2025-03-30,Night,CLOSED
+321,  Emergency shutdown activated after pressure surge.  ,PIPELINE 12,Chinedu,INSPECTION,HIGH,EQUIPMENT FAILURE,2025-09-17,Night,OPEN
+322,Small hydraulic fluid leak found beneath crane.,TANK FARM,Joy,PIPELINE OPERATIONS,MEDIUM,LEAK,2025-01-03,Night,UNDER INVESTIGATION
+323,Routine valve maintenance completed without issues.,LOADING BAY,Aisha,MECHANICAL,LOW,MAINTENANCE,2025-08-09,Night,CLOSED
+324,Pump vibration exceeded acceptable threshold.,PIPELINE 8,Daniel,HSE,MEDIUM,EQUIPMENT FAILURE,2025-08-09,Night,CLOSED
+325,  Oil spill discovered near storage tank.  ,LOADING BAY,Michael,PRODUCTION,HIGH,OIL SPILL,2026-01-17,Night,UNDER INVESTIGATION
+326,Unauthorized personnel entered restricted area.,GAS PROCESSING UNIT,David,INSPECTION,HIGH,SECURITY,2025-11-22,Day,CLOSED
+327,Routine valve maintenance completed without issues.,GAS PROCESSING UNIT,,HSE,LOW,MAINTENANCE,2025-05-28,Day,RESOLVED
+328,Gas detector triggered alarm near compressor station.,WELLHEAD 12,Aisha,INSPECTION,HIGH,GAS DETECTION,2026-04-28,Night,OPEN
+329,Gas detector triggred alarm near compressor station.,PLATFORM A,Paul,HSE,HIGH,GAS DETECTION,2025-12-22,Night,OPEN
+330,abnormal temperature recorded in processing unit.,PLATFORM A,Ibrahim,MECHANICAL,MEDIUM,EQUIPMENT FAILURE,2026-05-13,Night,CLOSED
+331,Fire extinguisher inspection completed successfully.,CONTROL ROOM,,UTILITIES,LOW,INSPECTION,2026-03-23,Night,OPEN
+332,SMALL HYDRAULIC FLUID LEAK FOUND BENEATH CRANE.,REFINERY,Samuel,HSE,MEDIUM,LEAK,2025-08-13,Day,RESOLVED
+333,emergency shutdown activated after pressure surge.,COMPRESSOR STATION,Samuel,ELECTRICAL,HIGH,EQUIPMENT FAILURE,2026-05-23,Night,OPEN
+334,routine valve maintenance completed without issues.,COMPRESSOR STATION,Chinedu,ELECTRICAL,LOW,MAINTENANCE,2025-10-22,Night,OPEN
+335,Pump vibration exceeded acceptable threshold.,REFINERY,Aisha,HSE,MEDIUM,EQUIPMENT FAILURE,2025-02-07,Day,OPEN
+336,Emergency shutdown activated after pressure surge.,GAS PROCESSING UNIT,Aisha,HSE,HIGH,EQUIPMENT FAILURE,2025-09-08,Day,OPEN
+337,Worker slipped on wet surface near loading bay.,STORAGE TERMINAL,Blessing,ELECTRICAL,MEDIUM,SLIP/FALL,2025-02-25,Day,RESOLVED
+338,Emergency shutdown activated after pressure surge.,PIPELINE 8,Samuel,UTILITIES,HIGH,EQUIPMENT FAILURE,2025-04-23,Day,UNDER INVESTIGATION
+339,routine valve maintainance completed without issues.,MANIFOLD,Michael,PRODUCTION,LOW,MAINTENANCE,2025-03-19,Day,OPEN
+340,Small hydraulic fluid leak found beneath crane.,TANK FARM,Ahmed,MAINTENANCE,MEDIUM,LEAK,2025-03-19,Night,OPEN
+341,Corrosion observed on external pipeline coating.,TANK FARM,Aisha,HSE,MEDIUM,CORROSION,2026-05-25,Day,OPEN
+342,Corrosion observed on external pipeline coating.,LOADING BAY,Chinedu,UTILITIES,MEDIUM,CORROSION,2026-02-10,Night,RESOLVED
+343,Smoke observed from electrical control panel.,PLATFORM A,Joy,PRODUCTION,HIGH,ELECTRICAL,2025-10-30,Day,CLOSED
+344,unauthorized personnel entered restricted area.,PLATFORM A,David,PRODUCTION,HIGH,SECURITY,2025-05-24,Day,RESOLVED
+345,Fire extinguisher inspection completed successfully.,GAS PROCESSING UNIT,Joy,INSTRUMENTATION,LOW,INSPECTION,2025-06-03,Night,UNDER INVESTIGATION
+346,Pump vibration exceeded acceptable threshold.,REFINERY,Chinedu,UTILITIES,MEDIUM,EQUIPMENT FAILURE,2025-07-30,Night,CLOSED
+347,Routine valve maintenance completed without issues.,FLOW STATION,David,INSTRUMENTATION,LOW,MAINTENANCE,2025-11-18,Night,OPEN
+348,Fire extinguisher inspection completed successfully.,CONTROL ROOM,Fatima,HSE,LOW,INSPECTION,2025-09-22,Night,CLOSED
+349,Corrosion observed on external pipeline coating.,PIPELINE 8,Paul,INSTRUMENTATION,MEDIUM,CORROSION,2025-02-16,Day,CLOSED
+350,Worker slipped on wet surface near loading bay.,WELLHEAD 12,Fatima,INSPECTION,MEDIUM,SLIP/FALL,2026-05-10,Night,UNDER INVESTIGATION
+351,Routine valve maintenance completed without issues.,PLATFORM B,Grace,MECHANICAL,L,MAINTENANCE,2025-12-12,Night,OPEN
+352,Oil spill discovered near storage tank.,STORAGE TERMINAL,Paul,PRODUCTION,HIGH,OIL SPILL,2025-08-20,Day,OPEN
+353,  UNAUTHORIZED PERSONNEL ENTERED RESTRICTED AREA.  ,FLOW STATION,Michael,INSPECTION,HIGH,SECURITY,2025-08-24,Night,OPEN
+354,Small hydraulic fluid leak found beneath crane.,CONTROL ROOM,Ahmed,MECHANICAL,MEDIUM,LEAK,2025-01-13,Night,UNDER INVESTIGATION
+355,Smoke observed from electrical control panel.,PIPELINE 12,Daniel,HSE,HIGH,ELECTRICAL,2025-02-20,Night,UNDER INVESTIGATION
+356,Corrosion observed on external pipeline coating.,TANK FARM,Ahmed,PIPELINE OPERATIONS,MEDIUM,CORROSION,2026-02-27,Night,UNDER INVESTIGATION
+357,Pump vibration exceeded acceptable threshold.,PLATFORM A,Samuel,PIPELINE OPERATIONS,MEDIUM,EQUIPMENT FAILURE,2025-10-12,Day,CLOSED
+358,Oil spill discovered near storage tank.,PIPELINE 8,Aisha,INSTRUMENTATION,HIGH,OIL SPILL,2026-05-10,Night,CLOSED
+359,Emergency shutdown activated after pressure surge.,PLATFORM A,Chinedu,INSPECTION,HIGH,EQUIPMENT FAILURE,2026-05-01,Day,OPEN
+360,Smoke observed from electrical control panel.,CONTROL ROOM,Daniel,INSPECTION,HIGH,ELECTRICAL,2026-03-13,Night,UNDER INVESTIGATION
+361,pressure leak detected on pipeline 7 during routine inspection.,PIPELINE 12,Samuel,PRODUCTION,HIGH,LEAK,2025-11-02,Day,UNDER INVESTIGATION
+362,Fire extinguisher inspection completed successfully.,GAS PROCESSING UNIT,Joy,INSPECTION,LOW,INSPECTION,2026-03-04,Day,CLOSED
+363,Oil spill discovered near storage tank.,LOADING BAY,Blessing,PRODUCTION,HIGH,OIL SPILL,2025-01-10,Night,OPEN
+364,Pressure leak detected on Pipeline 7 during routine inspection.,FLOW STATION,Samuel,HSE,HIGH,LEAK,2025-01-15,Day,OPEN
+365,Emergency shutdown activated after pressure surge.,PIPELINE 12,Daniel,INSTRUMENTATION,HIGH,EQUIPMENT FAILURE,2025-06-15,Night,UNDER INVESTIGATION
+366,Unauthorized personnel entered restricted area.,PIPELINE 12,Blessing,ELECTRICAL,HIGH,SECURITY,2026-01-06,Day,UNDER INVESTIGATION
+367,Small hydraulic fluid leak found beneath crane.,COMPRESSOR STATION,David,PIPELINE OPERATIONS,MEDIUM,LEAK,2025-05-23,Night,OPEN
+368,Loose flange bolts discovered during maintenance.,REFINERY,Joy,INSPECTION,MEDIUM,MECHANICAL,2025-10-24,Day,OPEN
+369,Loose flange bolts discovered during maintenance.,REFINERY,Fatima,INSPECTION,MEDIUM,MECHANICAL,2025-05-22,Day,RESOLVED
+370,Small hydraulic fluid leak found beneath crane.,,Mary,PIPELINE OPERATIONS,MEDIUM,LEAK,2025-12-11,Day,RESOLVED
+371,Gas detector triggered alarm near compressor station.,LOADING BAY,Samuel,PIPELINE OPERATIONS,HIGH,GAS DETECTION,2025-08-15,Night,CLOSED
+372,Gas detector triggered alarm near compressor station.,FLOW STATION,David,MECHANICAL,HIGH,GAS DETECTION,2025-10-15,Day,UNDER INVESTIGATION
+373,Sensor calibration completed successfully.,TANK FARM,Daniel,HSE,LOW,INSPECTION,2025-10-15,Night,CLOSED
+374,Sensor calibration completed successfully.,PIPELINE 7,Paul,MECHANICAL,LOW,INSPECTION,2025-04-07,Day,RESOLVED
+375,  Smoke observed from electrical control panel.  ,PIPELINE 8,John,HSE,HIGH,ELECTRICAL,2026-06-22,Night,RESOLVED
+376,Corrosion observed on external pipeline coating.,PIPELINE 12,Mary,PIPELINE OPERATIONS,MEDIUM,CORROSION,2025-05-18,Day,RESOLVED
+377,Small hydraulic fluid leak found beneath crane.,FLOW STATION,Michael,PIPELINE OPERATIONS,MEDIUM,LEAK,2026-06-11,Day,CLOSED
+378,Corrosion observed on external pipeline coating.,PIPELINE 12,Chinedu,UTILITIES,MEDIUM,CORROSION,2025-08-29,Day,OPEN
+379,Smoke observed from electrical control panel.,GAS PROCESSING UNIT,Mary,HSE,HIGH,ELECTRICAL,2025-02-21,Day,CLOSED
+380,Routine valve maintainance completed without issues.,GAS PROCESSING UNIT,Ahmed,PRODUCTION,LOW,MAINTENANCE,2025-10-27,Day,CLOSED
+381,Oil spill discovered near storage tank.,PIPELINE 12,Paul,INSPECTION,HIGH,OIL SPILL,2026-04-05,Night,RESOLVED
+382,Corrosion observed on external pipeline coating.,COMPRESSOR STATION,Daniel,PRODUCTION,MEDIUM,CORROSION,2025-02-01,Night,UNDER INVESTIGATION
+383,sensor calibration completed successfully.,STORAGE TERMINAL,Ibrahim,PRODUCTION,LOW,INSPECTION,2025-02-15,Night,OPEN
+384,Smoke observed from electrical control panel.,REFINERY,Joy,MAINTENANCE,HIGH,ELECTRICAL,2025-08-28,Day,CLOSED
+385,Gas detector triggered alarm near compressor station.,COMPRESSOR STATION,Michael,INSTRUMENTATION,HIGH,GAS DETECTION,2025-10-29,Night,OPEN
+386,Gas detector triggered alarm near compressor station.,STORAGE TERMINAL,Fatima,MECHANICAL,HIGH,GAS DETECTION,2025-04-11,Day,UNDER INVESTIGATION
+387,Pump vibration exceeded acceptable threshold.,FLOW STATION,Joy,MAINTENANCE,MEDIUM,EQUIPMENT FAILURE,2025-05-15,Day,UNDER INVESTIGATION
+388,Smoke observed from electrical control panel.,WELLHEAD 12,Ahmed,INSPECTION,HIGH,ELECTRICAL,2026-03-17,Day,OPEN
+389,Routine valve maintainance completed without issues.,PIPELINE 12,Ahmed,MAINTENANCE,LOW,MAINTENANCE,2026-02-11,Night,OPEN
+390,Routine valve maintenance completed without issues.,PIPELINE 7,Samuel,PIPELINE OPERATIONS,LOW,MAINTENANCE,2025-08-13,Day,RESOLVED
+391,Pressure leak detected on Pipeline 7 during routine inspection.,COMPRESSOR STATION,Ahmed,HSE,HIGH,LEAK,2025-03-11,Day,CLOSED
+392,Worker slipped on wet surface near loading bay.,GAS PROCESSING UNIT,Chinedu,MECHANICAL,MEDIUM,SLIP/FALL,2025-05-15,Night,CLOSED
+393,Worker slipped on wet surface near loading bay.,PLATFORM A,Fatima,INSPECTION,MEDIUM,SLIP/FALL,2026-02-26,Night,CLOSED
+394,Pressure leak detected on Pipeline 7 during routine inspection.,PIPELINE 12,Aisha,INSPECTION,HIGH,LEAK,2025-08-07,Day,OPEN
+395,Gas detector triggered alarm near compressor station.,PIPELINE 7,Samuel,MAINTENANCE,HIGH,GAS DETECTION,2026-05-30,Day,RESOLVED
+396,Corrosion observed on external pipeline coating.,STORAGE TERMINAL,Samuel,INSPECTION,MEDIUM,CORROSION,2026-03-05,Day,OPEN
+397,Presssure leak detected on Pipline 7 during routine inspection.,PIPELINE 8,Fatima,UTILITIES,HIGH,LEAK,2026-05-25,Day,CLOSED
+398,Small hydraulic fluid leak found beneath crane.,FLOW STATION,Ahmed,MAINTENANCE,MEDIUM,LEAK,2026-01-30,Day,UNDER INVESTIGATION
+399,Corrosion observed on external pipeline coating.,COMPRESSOR STATION,Michael,MECHANICAL,MEDIUM,CORROSION,2026-02-19,Night,UNDER INVESTIGATION
+400,Small hydraulic fluid leak found beneath crane.,STORAGE TERMINAL,Paul,PIPELINE OPERATIONS,MEDIUM,LEAK,2025-04-12,Day,RESOLVED
+401,Oil spill discovered near storage tank.,FLOW STATION,David,MAINTENANCE,HIGH,OIL SPILL,2026-02-10,Night,OPEN
+402,small hydraulic fluid leak found beneath crane.,PLATFORM A,David,HSE,MEDIUM,LEAK,2025-11-16,Night,RESOLVED
+403,Pressure leak detected on Pipeline 7 during routine inspection.,LOADING BAY,John,PIPELINE OPERATIONS,HIGH,LEAK,2025-11-16,Day,RESOLVED
+404,Abnormal temperature recorded in processing unit.,TANK FARM,Aisha,MAINTENANCE,MEDIUM,EQUIPMENT FAILURE,2026-06-16,Day,CLOSED
+405,Pump vibration exceeded acceptable threshold.,MANIFOLD,Fatima,PIPELINE OPERATIONS,MEDIUM,EQUIPMENT FAILURE,2025-10-19,Day,RESOLVED
+406,Small hydraulic fluid leak found beneath crane.,PLATFORM A,Chinedu,HSE,MEDIUM,LEAK,2026-03-26,Day,RESOLVED
+407,Routine valve maintainance completed without issues.,WELLHEAD 12,,PRODUCTION,LOW,MAINTENANCE,2025-05-25,Night,OPEN
+408,Unauthorized personnel entered restricted area.,STORAGE TERMINAL,Joy,MAINTENANCE,HIGH,SECURITY,2025-10-05,Night,OPEN
+409,Abnormal temprature recorded in processing unit.,MANIFOLD,Paul,INSTRUMENTATION,MEDIUM,EQUIPMENT FAILURE,2025-10-12,Night,OPEN
+410,Unauthorized personnel entered restricted area.,FLOW STATION,David,ELECTRICAL,HIGH,SECURITY,2026-02-18,Day,CLOSED
+411,routine valve maintenance completed without issues.,REFINERY,Joy,ELECTRICAL,LOW,MAINTENANCE,2025-04-06,Day,UNDER INVESTIGATION
+412,Fire extinguisher inspection completed successfully.,CONTROL ROOM,Ibrahim,MECHANICAL,LOW,INSPECTION,2026-01-26,Night,RESOLVED
+413,Pump vibration exceeded acceptable threshold.,CONTROL ROOM,Ibrahim,MAINTENANCE,MEDIUM,EQUIPMENT FAILURE,2026-06-13,Day,CLOSED
+414,pressure leak detected on pipeline 7 during routine inspection.,,John,UTILITIES,HIGH,LEAK,2025-07-25,Day,RESOLVED
+415,Routine valve maintenance completed without issues.,TANK FARM,Ibrahim,UTILITIES,LOW,MAINTENANCE,2025-07-25,Night,UNDER INVESTIGATION
+416,Pressure leak detected on Pipeline 7 during routine inspection.,STORAGE TERMINAL,Grace,MAINTENANCE,HIGH,LEAK,2025-06-21,Day,RESOLVED
+417,Abnormal temperature recorded in processing unit.,FLOW STATION,Paul,PIPELINE OPERATIONS,MEDIUM,EQUIPMENT FAILURE,2025-02-03,Day,UNDER INVESTIGATION
+419,Loose flange bolts discovered during maintenance.,COMPRESSOR STATION,Mary,UTILITIES,MEDIUM,MECHANICAL,2026-04-09,Day,RESOLVED
+420,Smoke observed from electrical control panel.,REFINERY,David,ELECTRICAL,HIGH,ELECTRICAL,2026-06-13,Day,OPEN
+421,  emergency shutdown activated after pressure surge.  ,TANK FARM,Ahmed,INSPECTION,HIGH,EQUIPMENT FAILURE,2026-05-23,Day,UNDER INVESTIGATION
+422,PRESSURE LEAK DETECTED ON PIPELINE 7 DURING ROUTINE INSPECTION.,PLATFORM B,Aisha,INSTRUMENTATION,HIGH,LEAK,2025-05-24,Day,RESOLVED
+423,Pump vibration exceeded acceptable threshold.,PIPELINE 8,Michael,MECHANICAL,MEDIUM,EQUIPMENT FAILURE,2025-10-09,Night,OPEN
+424,Oil spill discovered near storage tank.,WELLHEAD 12,David,MECHANICAL,HIGH,OIL SPILL,2025-03-18,Day,CLOSED
+425,Emergency shutdown activated after pressure surge.,LOADING BAY,Aisha,PIPELINE OPERATIONS,HIGH,EQUIPMENT FAILURE,2025-08-13,Night,OPEN
+426,OIL SPILL DISCOVERED NEAR STORAGE TANK.,REFINERY,Grace,INSPECTION,HIGH,OIL SPILL,2026-02-12,Day,OPEN
+427,Routine valve maintenance completed without issues.,TANK FARM,Aisha,INSTRUMENTATION,LOW,MAINTENANCE,2025-07-20,Night,CLOSED
+428,  Worker slipped on wet surface near loading bay.  ,CONTROL ROOM,Mary,MAINTENANCE,MEDIUM,SLIP/FALL,2025-06-08,Day,RESOLVED
+429,Pressure leak detected on Pipeline 7 during routine inspection.,FLOW STATION,Blessing,ELECTRICAL,HIGH,LEAK,2025-08-28,Day,UNDER INVESTIGATION
+430,Smoke observed from electrical control panel.,PIPELINE 7,Aisha,MAINTENANCE,HIGH,ELECTRICAL,2025-10-26,Day,CLOSED
+431,Smoke observed from electrical control panel.,PLATFORM B,Mary,HSE,HIGH,ELECTRICAL,2025-10-29,Day,CLOSED
+432,Smoke observed from electrical control panel.,COMPRESSOR STATION,Mary,UTILITIES,HIGH,ELECTRICAL,2025-08-19,Day,UNDER INVESTIGATION
+433,Fire extinguisher inspection completed successfully.,PIPELINE 7,Samuel,ELECTRICAL,LOW,INSPECTION,2025-11-14,Day,OPEN
+434,Unauthorized personnel entered restricted area.,TANK FARM,David,INSTRUMENTATION,HIGH,SECURITY,2025-01-21,Day,OPEN
+435,Emergency shutdown activated after pressure surge.,PLATFORM B,Ibrahim,PRODUCTION,HIGH,EQUIPMENT FAILURE,2025-07-08,Night,CLOSED
+436,Unauthorized personnel entered restricted area.,PIPELINE 7,Blessing,PIPELINE OPERATIONS,HIGH,SECURITY,2025-02-23,Night,OPEN
+437,Oil spill discovered near storage tank.,PLATFORM B,John,MECHANICAL,HIGH,OIL SPILL,2025-01-20,Night,RESOLVED
+438,Loose flange bolts discovered during maintainance.,LOADING BAY,Blessing,INSTRUMENTATION,MEDIUM,MECHANICAL,2026-01-25,Day,RESOLVED
+439,Emergency shutdown activated after pressure surge.,MANIFOLD,Grace,PRODUCTION,HIGH,EQUIPMENT FAILURE,2026-03-12,Night,CLOSED
+440,Abnormal temperature recorded in processing unit.,TANK FARM,Fatima,INSPECTION,M,EQUIPMENT FAILURE,2025-11-29,Night,UNDER INVESTIGATION
+441,Sensor calibration completed successfully.,PIPELINE 12,Ibrahim,UTILITIES,LOW,INSPECTION,2025-11-29,Day,OPEN
+442,Pressure leak detected on Pipeline 7 during routine inspection.,REFINERY,Ahmed,INSPECTION,H,LEAK,2025-01-15,Day,RESOLVED
+443,Pressure leak detected on Pipeline 7 during routine inspection.,REFINERY,Paul,MAINTENANCE,HIGH,LEAK,2026-02-02,Day,RESOLVED
+444,Gas detector triggered alarm near compressor station.,GAS PROCESSING UNIT,Ahmed,INSPECTION,HIGH,GAS DETECTION,2025-01-22,Day,RESOLVED
+445,Pressure leak detected on Pipeline 7 during routine inspection.,PLATFORM A,Grace,HSE,HIGH,LEAK,2025-01-22,Night,UNDER INVESTIGATION
+446,routine valve maintenance completed without issues.,GAS PROCESSING UNIT,Blessing,ELECTRICAL,LOW,MAINTENANCE,2025-08-17,Night,RESOLVED
+447,Fire extinguisher inspection completed successfully.,REFINERY,Samuel,MECHANICAL,LOW,INSPECTION,2025-01-08,Day,RESOLVED
+448,Worker slipped on wet surface near loading bay.,LOADING BAY,John,HSE,MEDIUM,SLIP/FALL,2026-04-10,Day,UNDER INVESTIGATION
+449,Small hydraulic fluid leak found beneath crane.,PLATFORM B,,PIPELINE OPERATIONS,MEDIUM,LEAK,2025-02-16,Day,OPEN
+450,Emergency shutdown activated after pressure surge.,PLATFORM A,Daniel,PRODUCTION,HIGH,EQUIPMENT FAILURE,2025-11-27,Night,CLOSED
+451,  Corrosion observed on external pipeline coating.  ,WELLHEAD 12,David,PRODUCTION,MEDIUM,CORROSION,2026-05-22,Day,RESOLVED
+452,Sensor calibration completed successfully.,STORAGE TERMINAL,Aisha,MECHANICAL,LOW,INSPECTION,2025-06-23,Day,CLOSED
+453,Pressure leak detected on Pipeline 7 during routine inspection.,MANIFOLD,Grace,INSPECTION,HIGH,LEAK,2026-02-22,Night,RESOLVED
+454,Emergency shutdown activated after pressure surge.,PIPELINE 8,Grace,INSTRUMENTATION,HIGH,EQUIPMENT FAILURE,2026-02-22,Night,OPEN
+455,  Pump vibration exceeded acceptable threshold.  ,COMPRESSOR STATION,Samuel,MAINTENANCE,MEDIUM,EQUIPMENT FAILURE,2025-10-23,Night,UNDER INVESTIGATION
+456,  Worker slipped on wet surface near loading bay.  ,PIPELINE 12,Chinedu,PIPELINE OPERATIONS,MEDIUM,SLIP/FALL,2026-05-08,Night,RESOLVED
+457,SENSOR CALIBRATION COMPLETED SUCCESSFULLY.,CONTROL ROOM,David,HSE,LOW,INSPECTION,2026-04-16,Night,OPEN
+458,  Pressure leak detected on Pipeline 7 during routine inspection.  ,PLATFORM A,Mary,PRODUCTION,HIGH,LEAK,2026-04-16,Night,CLOSED
+459,  Small hydraulic fluid leak found beneath crane.  ,TANK FARM,Ibrahim,HSE,MEDIUM,LEAK,2025-06-04,Day,UNDER INVESTIGATION
+460,Small hydraulic fluid leak found beneath crane.,GAS PROCESSING UNIT,David,ELECTRICAL,M,LEAK,2026-01-04,Day,OPEN
+461,Pump vibration exceeded acceptable threshold.,REFINERY,David,MECHANICAL,MEDIUM,EQUIPMENT FAILURE,2025-10-13,Night,OPEN
+462,Worker slipped on wet surface near loading bay.,FLOW STATION,Daniel,HSE,MEDIUM,SLIP/FALL,2025-05-10,Day,OPEN
+463,Pump vibration exceeded acceptable threshold.,LOADING BAY,David,UTILITIES,MEDIUM,EQUIPMENT FAILURE,2025-07-02,Day,OPEN
+464,,REFINERY,Fatima,PRODUCTION,LOW,INSPECTION,2025-08-06,Day,CLOSED
+465,loose flange bolts discovered during maintenance.,TANK FARM,David,MAINTENANCE,MEDIUM,MECHANICAL,2025-08-01,Day,OPEN
+466,,PIPELINE 12,Ibrahim,PRODUCTION,MEDIUM,SLIP/FALL,2026-05-12,Day,RESOLVED
+467,Gas detector triggered alarm near compressor station.,STORAGE TERMINAL,Joy,INSTRUMENTATION,HIGH,GAS DETECTION,2025-10-22,Day,RESOLVED
+468,Pressure leak detected on Pipeline 7 during routine inspection.,COMPRESSOR STATION,Samuel,INSPECTION,HIGH,LEAK,2025-10-30,Night,UNDER INVESTIGATION
+469,  Small hydraulic fluid leak found beneath crane.  ,STORAGE TERMINAL,Blessing,ELECTRICAL,MEDIUM,LEAK,2025-07-25,Night,UNDER INVESTIGATION
+470,Gas detector triggered alarm near compressor station.,PIPELINE 12,Blessing,MECHANICAL,HIGH,GAS DETECTION,2025-07-29,Night,UNDER INVESTIGATION
+471,WORKER SLIPPED ON WET SURFACE NEAR LOADING BAY.,MANIFOLD,Fatima,INSTRUMENTATION,MEDIUM,SLIP/FALL,2025-10-10,Night,CLOSED
+472,Abnormal temperature recorded in processing unit.,PLATFORM B,Ibrahim,PRODUCTION,MEDIUM,EQUIPMENT FAILURE,2026-04-22,Night,OPEN
+473,SENSOR CALIBRATION COMPLETED SUCCESSFULLY.,LOADING BAY,David,UTILITIES,LOW,INSPECTION,2025-03-17,Day,UNDER INVESTIGATION
+474,Pressure leak detected on Pipeline 7 during routine inspection.,PLATFORM B,Ibrahim,INSPECTION,HIGH,LEAK,2025-11-20,Day,CLOSED
+475,abnormal temperature recorded in processing unit.,PLATFORM A,Michael,PRODUCTION,MEDIUM,EQUIPMENT FAILURE,2025-05-02,Night,CLOSED
+476,  Fire extinguisher inspection completed successfully.  ,PIPELINE 12,Aisha,PIPELINE OPERATIONS,LOW,INSPECTION,2026-03-13,Day,CLOSED
+477,Pump vibration exceeded acceptable threshold.,MANIFOLD,Blessing,PRODUCTION,MEDIUM,EQUIPMENT FAILURE,2026-01-27,Night,OPEN
+478,Fire extinguisher inspection completed successfully.,LOADING BAY,Aisha,INSTRUMENTATION,LOW,INSPECTION,2025-10-24,Night,UNDER INVESTIGATION
+479,,GAS PROCESSING UNIT,Samuel,INSPECTION,HIGH,OIL SPILL,2025-10-24,Night,OPEN
+480,Abnormal temperature recorded in processing unit.,PIPELINE 7,Mary,ELECTRICAL,MEDIUM,EQUIPMENT FAILURE,2025-04-30,Night,OPEN
+481,Pressure leak detected on Pipeline 7 during routine inspection.,FLOW STATION,Chinedu,ELECTRICAL,HIGH,LEAK,2025-06-26,Day,UNDER INVESTIGATION
+482,Unauthorized personnel entered restricted area.,STORAGE TERMINAL,Mary,UTILITIES,HIGH,SECURITY,2026-04-11,Day,UNDER INVESTIGATION
+483,Small hydraulic fluid leak found beneath crane.,CONTROL ROOM,Samuel,INSTRUMENTATION,MEDIUM,LEAK,2025-01-03,Night,UNDER INVESTIGATION
+484,  Corrosion observed on external pipeline coating.  ,FLOW STATION,Chinedu,MECHANICAL,MEDIUM,CORROSION,2025-03-18,Day,RESOLVED
+485,Smoke observed from electrical control panel.,WELLHEAD 12,Fatima,PIPELINE OPERATIONS,HIGH,ELECTRICAL,2025-07-13,Day,CLOSED
+486,Routine valve maintenance completed without issues.,PIPELINE 7,John,UTILITIES,LOW,MAINTENANCE,2025-11-19,Night,RESOLVED
+487,Abnormal temperature recorded in processing unit.,FLOW STATION,Ahmed,HSE,MEDIUM,EQUIPMENT FAILURE,2025-08-14,Night,CLOSED
+488,fire extinguisher inspection completed successfully.,STORAGE TERMINAL,Joy,MECHANICAL,LOW,INSPECTION,2025-04-04,Day,CLOSED
+489,Abnormal temperature recorded in processing unit.,FLOW STATION,Fatima,INSTRUMENTATION,M,EQUIPMENT FAILURE,2025-03-14,Night,UNDER INVESTIGATION
+490,  Oil spill discovered near storage tank.  ,PLATFORM A,Paul,MAINTENANCE,HIGH,OIL SPILL,2025-11-11,Night,CLOSED
+491,Routine valve maintainance completed without issues.,PIPELINE 7,Ahmed,UTILITIES,LOW,MAINTENANCE,2026-06-25,Night,RESOLVED
+492,Pressure leak detected on Pipeline 7 during routine inspection.,GAS PROCESSING UNIT,Ahmed,INSTRUMENTATION,HIGH,LEAK,2025-02-21,Day,RESOLVED
+493,Fire extinguisher inspection completed successfully.,PIPELINE 8,Blessing,INSPECTION,LOW,INSPECTION,2025-01-24,Night,OPEN
+494,Corrosion observed on external pipeline coating.,FLOW STATION,Ibrahim,PIPELINE OPERATIONS,MEDIUM,CORROSION,2025-02-21,Day,CLOSED
+495,Pump vibration exceeded acceptable threshold.,CONTROL ROOM,Daniel,PRODUCTION,MEDIUM,EQUIPMENT FAILURE,2025-02-22,Night,UNDER INVESTIGATION
+496,Corrosion observed on external pipeline coating.,CONTROL ROOM,,MECHANICAL,MEDIUM,CORROSION,2025-02-22,Day,CLOSED
+497,Smoke observed from electrical control panel.,TANK FARM,Paul,ELECTRICAL,HIGH,ELECTRICAL,2025-01-04,Day,CLOSED
+498,Routine valve maintenance completed without issues.,PLATFORM A,Michael,ELECTRICAL,LOW,MAINTENANCE,2025-06-21,Day,UNDER INVESTIGATION
+499,Pressure leak detected on Pipeline 7 during routine inspection.,STORAGE TERMINAL,David,INSPECTION,HIGH,LEAK,2025-01-04,Day,UNDER INVESTIGATION
+500,pressure leak detected on pipeline 7 during routine inspection.,FLOW STATION,Ahmed,MECHANICAL,HIGH,LEAK,2025-09-21,Day,CLOSED
+501,Abnormal temperature recorded in processing unit.,PIPELINE 7,Samuel,UTILITIES,MEDIUM,EQUIPMENT FAILURE,2025-03-08,Day,RESOLVED
+502,Pressure leak detected on Pipeline 7 during routine inspection.,FLOW STATION,Daniel,MECHANICAL,HIGH,LEAK,2025-10-04,Day,OPEN
+503,Corrosion observed on external pipeline coating.,PIPELINE 8,Fatima,ELECTRICAL,MEDIUM,CORROSION,2025-10-04,Day,CLOSED
+504,Corrosion observed on external pipeline coating.,PLATFORM A,David,PRODUCTION,MEDIUM,CORROSION,2025-04-10,Day,CLOSED
+505,Abnormal temperature recorded in processing unit.,WELLHEAD 12,Ibrahim,PRODUCTION,MEDIUM,EQUIPMENT FAILURE,2025-02-11,Day,OPEN
+506,Worker slipped on wet surface near loading bay.,WELLHEAD 12,Blessing,ELECTRICAL,MEDIUM,SLIP/FALL,2025-01-16,Night,CLOSED
+507,Routine valve maintenance completed without issues.,LOADING BAY,Aisha,PRODUCTION,LOW,MAINTENANCE,2026-05-24,Night,CLOSED
+508,Worker slipped on wet surface near loading bay.,REFINERY,Fatima,UTILITIES,MEDIUM,SLIP/FALL,2025-01-19,Night,UNDER INVESTIGATION
+509,Oil spill discovered near storage tank.,PIPELINE 8,Chinedu,ELECTRICAL,HIGH,OIL SPILL,2025-05-06,Night,RESOLVED
+510,Gas detector triggered alarm near compressor station.,LOADING BAY,Ahmed,MECHANICAL,HIGH,GAS DETECTION,2025-01-13,Day,UNDER INVESTIGATION
+511,Oil spill discovered near storage tank.,TANK FARM,Samuel,INSTRUMENTATION,HIGH,OIL SPILL,2026-05-24,Day,CLOSED
+512,smoke observed from electrical control panel.,TANK FARM,Paul,MAINTENANCE,HIGH,ELECTRICAL,2026-03-31,Day,CLOSED
+513,Oil spill discovered near storage tank.,PLATFORM A,Joy,MAINTENANCE,HIGH,OIL SPILL,2025-09-05,Night,CLOSED
+514,fire extinguisher inspection completed successfully.,PLATFORM B,,HSE,LOW,INSPECTION,2025-08-11,Night,UNDER INVESTIGATION
+515,  Routine valve maintenance completed without issues.  ,COMPRESSOR STATION,Michael,PIPELINE OPERATIONS,LOW,MAINTENANCE,2026-04-04,Day,UNDER INVESTIGATION
+516,Sensor calibration completed successfully.,CONTROL ROOM,Mary,UTILITIES,LOW,INSPECTION,2025-10-11,Night,CLOSED
+517,Worker slipped on wet surface near loading bay.,WELLHEAD 12,Ahmed,INSTRUMENTATION,MEDIUM,SLIP/FALL,2025-10-11,Night,UNDER INVESTIGATION
+518,Small hydraulic fluid leak found beneath crane.,PIPELINE 7,Ibrahim,MECHANICAL,MEDIUM,LEAK,2025-03-25,Night,OPEN
+519,Oil spill discovered near storage tank.,GAS PROCESSING UNIT,Michael,MECHANICAL,HIGH,OIL SPILL,2025-05-29,Day,CLOSED
+520,  Pump vibration exceeded acceptable threshold.  ,FLOW STATION,Aisha,MAINTENANCE,MEDIUM,EQUIPMENT FAILURE,2025-09-25,Day,RESOLVED
+521,Smoke observed from electrical control panel.,PIPELINE 12,Ahmed,PRODUCTION,HIGH,ELECTRICAL,2026-01-08,Night,RESOLVED
+522,Pump vibration exceeded acceptable threshold.,PIPELINE 8,John,PIPELINE OPERATIONS,MEDIUM,EQUIPMENT FAILURE,2026-01-16,Day,RESOLVED
+523,Small hydraulic fluid leak found beneath crane.,WELLHEAD 12,Chinedu,MECHANICAL,MEDIUM,LEAK,2025-02-01,Day,RESOLVED
+524,Corrosion observed on external pipeline coating.,WELLHEAD 12,Fatima,INSTRUMENTATION,MEDIUM,CORROSION,2026-06-04,Day,RESOLVED
+525,Small hydraulic fluid leak found beneath crane.,GAS PROCESSING UNIT,Blessing,MECHANICAL,MEDIUM,LEAK,2025-11-08,Night,RESOLVED
+526,Sensor calibration completed successfully.,REFINERY,Aisha,ELECTRICAL,LOW,INSPECTION,2025-11-22,Night,RESOLVED
+527,Worker slipped on wet surface near loading bay.,COMPRESSOR STATION,Michael,PRODUCTION,MEDIUM,SLIP/FALL,2026-06-21,Night,UNDER INVESTIGATION
+528,Pump vibration exceeded acceptable threshold.,MANIFOLD,Ahmed,UTILITIES,MEDIUM,EQUIPMENT FAILURE,2026-02-22,Day,RESOLVED
+529,Abnormal temperature recorded in processing unit.,TANK FARM,John,MECHANICAL,MEDIUM,EQUIPMENT FAILURE,2025-07-01,Night,RESOLVED
+530,  Fire extinguisher inspection completed successfully.  ,PIPELINE 8,Chinedu,MECHANICAL,LOW,INSPECTION,2025-03-14,Night,OPEN
+531,Corrosion observed on external pipeline coating.,FLOW STATION,Paul,ELECTRICAL,MEDIUM,CORROSION,2026-04-01,Night,RESOLVED
+532,Sensor calibration completed successfully.,REFINERY,John,ELECTRICAL,LOW,INSPECTION,2026-06-09,Day,OPEN
+533,Sensor calibration completed successfully.,PIPELINE 12,Joy,MAINTENANCE,LOW,INSPECTION,2026-06-09,Night,RESOLVED
+534,routine valve maintenance completed without issues.,GAS PROCESSING UNIT,Samuel,INSTRUMENTATION,LOW,MAINTENANCE,2026-04-26,Day,OPEN
+535,Oil spill discovered near storage tank.,MANIFOLD,Mary,ELECTRICAL,HIGH,OIL SPILL,2025-09-02,Day,CLOSED
+536,pump vibration exceeded acceptable threshold.,WELLHEAD 12,Daniel,INSTRUMENTATION,MEDIUM,EQUIPMENT FAILURE,2025-09-18,Night,RESOLVED
+537,Sensor calibration completed successfully.,PIPELINE 7,Ahmed,UTILITIES,LOW,INSPECTION,2025-09-18,Day,OPEN
+538,Oil spill discovered near storage tank.,REFINERY,Mary,INSTRUMENTATION,HIGH,OIL SPILL,2026-03-10,Day,CLOSED
+539,Unauthorized personnel entered restricted area.,,Fatima,PIPELINE OPERATIONS,HIGH,SECURITY,2026-03-10,Night,RESOLVED
+540,Loose flange bolts discovered during maintenance.,STORAGE TERMINAL,Paul,HSE,MEDIUM,MECHANICAL,2026-03-10,Night,CLOSED
+541,WORKER SLIPPED ON WET SURFACE NEAR LOADING BAY.,,John,MAINTENANCE,MEDIUM,SLIP/FALL,2025-11-08,Day,CLOSED
+542,Worker slipped on wet surface near loading bay.,PIPELINE 7,Ibrahim,HSE,MEDIUM,SLIP/FALL,2025-05-09,Night,CLOSED
+543,Gas detector triggered alarm near compressor station.,PIPELINE 12,Paul,INSTRUMENTATION,HIGH,GAS DETECTION,2026-03-24,Day,OPEN
+544,Small hydraulic fluid leak found beneath crane.,FLOW STATION,Michael,HSE,MEDIUM,LEAK,2026-06-17,Night,OPEN
+545,Small hydraulic fluid leak found beneath crane.,PIPELINE 7,Chinedu,INSTRUMENTATION,MEDIUM,LEAK,2025-10-02,Night,OPEN
+546,Pressure leak detected on Pipeline 7 during routine inspection.,PIPELINE 12,Blessing,PRODUCTION,HIGH,LEAK,2025-04-21,Day,RESOLVED
+547,Smoke observed from electrical control panel.,GAS PROCESSING UNIT,Blessing,HSE,HIGH,ELECTRICAL,2025-09-10,Day,UNDER INVESTIGATION
+548,Gas detector triggered alarm near compressor station.,CONTROL ROOM,,MAINTENANCE,HIGH,GAS DETECTION,2025-02-06,Day,UNDER INVESTIGATION
+549,Smoke observed from electrical control panel.,CONTROL ROOM,Aisha,PRODUCTION,HIGH,ELECTRICAL,2025-02-06,Day,UNDER INVESTIGATION
+550,Smoke observed from electrical control panel.,PIPELINE 12,Mary,MAINTENANCE,HIGH,ELECTRICAL,2026-01-02,Day,RESOLVED
+551,Emergency shutdown activated after pressure surge.,TANK FARM,Paul,INSTRUMENTATION,HIGH,EQUIPMENT FAILURE,2025-05-23,Day,OPEN
+552,Unauthorized personnel entered restricted area.,PLATFORM A,Samuel,MAINTENANCE,HIGH,SECURITY,2026-03-10,Night,OPEN
+553,Routine valve maintenance completed without issues.,WELLHEAD 12,Aisha,INSPECTION,LOW,MAINTENANCE,2025-07-18,Day,OPEN
+554,Fire extinguisher inspection completed successfully.,CONTROL ROOM,Mary,INSTRUMENTATION,LOW,INSPECTION,2025-07-18,Night,RESOLVED
+555,Loose flange bolts discovered during maintainance.,CONTROL ROOM,Ahmed,INSPECTION,MEDIUM,MECHANICAL,2026-01-30,Night,RESOLVED
+556,  Sensor calibration completed successfully.  ,MANIFOLD,Ibrahim,INSPECTION,LOW,INSPECTION,2025-06-06,Day,CLOSED
+557,Pump vibration exceeded acceptable threshold.,FLOW STATION,John,PRODUCTION,MEDIUM,EQUIPMENT FAILURE,2025-12-28,Day,OPEN
+558,Loose flange bolts discovered during maintenance.,REFINERY,Fatima,MAINTENANCE,MEDIUM,MECHANICAL,2025-08-23,Night,RESOLVED
+559,sensor calibration completed successfully.,COMPRESSOR STATION,Grace,ELECTRICAL,LOW,INSPECTION,2026-06-01,Day,RESOLVED
+560,Routine valve maintenance completed without issues.,PLATFORM B,Daniel,PRODUCTION,LOW,MAINTENANCE,2025-01-09,Night,UNDER INVESTIGATION
+561,Small hydraulic fluid leak found beneath crane.,FLOW STATION,David,INSPECTION,MEDIUM,LEAK,2025-05-31,Day,UNDER INVESTIGATION
+562,Pump vibration exceeded acceptable threshold.,PLATFORM B,Aisha,ELECTRICAL,MEDIUM,EQUIPMENT FAILURE,2025-01-28,Day,UNDER INVESTIGATION
+563,Fire extinguisher inspection completed successfully.,GAS PROCESSING UNIT,Chinedu,ELECTRICAL,LOW,INSPECTION,2025-12-08,Night,OPEN
+564,Sensor calibration completed successfully.,COMPRESSOR STATION,Paul,ELECTRICAL,L,INSPECTION,2025-12-08,Night,UNDER INVESTIGATION
+565,Abnormal temperature recorded in processing unit.,LOADING BAY,Paul,PIPELINE OPERATIONS,MEDIUM,EQUIPMENT FAILURE,2025-08-07,Day,CLOSED
+566,Worker slipped on wet surface near loading bay.,CONTROL ROOM,Aisha,PRODUCTION,MEDIUM,SLIP/FALL,2025-03-14,Night,RESOLVED
+567,Unauthorized personnel entered restricted area.,GAS PROCESSING UNIT,Ahmed,INSTRUMENTATION,HIGH,SECURITY,2025-01-20,Night,UNDER INVESTIGATION
+568,Pump vibration exceeded acceptable threshold.,FLOW STATION,,PRODUCTION,MEDIUM,EQUIPMENT FAILURE,2025-07-18,Night,CLOSED
+569,WORKER SLIPPED ON WET SURFACE NEAR LOADING BAY.,TANK FARM,Ibrahim,ELECTRICAL,MEDIUM,SLIP/FALL,2026-05-09,Night,UNDER INVESTIGATION
+570,Abnormal temprature recorded in processing unit.,FLOW STATION,Samuel,INSTRUMENTATION,MEDIUM,EQUIPMENT FAILURE,2026-04-09,Night,RESOLVED
+571,SMALL HYDRAULIC FLUID LEAK FOUND BENEATH CRANE.,CONTROL ROOM,Ibrahim,HSE,MEDIUM,LEAK,2026-06-23,Night,UNDER INVESTIGATION
+572,  Oil spill discovered near storage tank.  ,COMPRESSOR STATION,Grace,MECHANICAL,HIGH,OIL SPILL,2025-05-12,Day,CLOSED
+573,Corrosion observed on external pipeline coating.,WELLHEAD 12,Grace,ELECTRICAL,MEDIUM,CORROSION,2026-01-15,Night,CLOSED
+574,Loose flange bolts discovered during maintenance.,MANIFOLD,Ibrahim,PRODUCTION,MEDIUM,MECHANICAL,2026-01-15,Day,RESOLVED
+575,Emergency shutdown activated after pressure surge.,GAS PROCESSING UNIT,Mary,HSE,HIGH,EQUIPMENT FAILURE,2026-02-02,Night,RESOLVED
+576,Pressure leak detected on Pipeline 7 during routine inspection.,FLOW STATION,David,MECHANICAL,HIGH,LEAK,2025-08-01,Day,UNDER INVESTIGATION
+577,sensor calibration completed successfully.,GAS PROCESSING UNIT,Ahmed,INSPECTION,LOW,INSPECTION,2025-12-14,Night,RESOLVED
+578,Sensor calibration completed successfully.,TANK FARM,Fatima,MAINTENANCE,LOW,INSPECTION,2025-05-06,Day,CLOSED
+579,Smoke observed from electrical control panel.,PIPELINE 7,Blessing,PRODUCTION,H,ELECTRICAL,2025-07-15,Day,OPEN
+580,Oil spill discovered near storage tank.,WELLHEAD 12,John,PRODUCTION,HIGH,OIL SPILL,2025-01-15,Day,UNDER INVESTIGATION
+581,Worker slipped on wet surface near loading bay.,WELLHEAD 12,Daniel,MAINTENANCE,MEDIUM,SLIP/FALL,2026-02-11,Day,OPEN
+582,small hydraulic fluid leak found beneath crane.,PIPELINE 8,John,ELECTRICAL,MEDIUM,LEAK,2026-02-11,Night,UNDER INVESTIGATION
+583,Smoke observed from electrical control panel.,STORAGE TERMINAL,Aisha,UTILITIES,HIGH,ELECTRICAL,2025-11-12,Night,UNDER INVESTIGATION
+584,loose flange bolts discovered during maintenance.,COMPRESSOR STATION,Paul,MECHANICAL,M,MECHANICAL,2025-06-23,Night,RESOLVED
+585,,GAS PROCESSING UNIT,Daniel,PRODUCTION,MEDIUM,LEAK,2025-01-28,Night,UNDER INVESTIGATION
+586,Routine valve maintainance completed without issues.,PIPELINE 7,Michael,PIPELINE OPERATIONS,LOW,MAINTENANCE,2025-09-15,Day,RESOLVED
+587,Gas detector triggered alarm near compressor station.,COMPRESSOR STATION,Ahmed,INSTRUMENTATION,HIGH,GAS DETECTION,2025-08-11,Day,CLOSED
+588,  Unauthorized personnel entered restricted area.  ,COMPRESSOR STATION,Ahmed,HSE,HIGH,SECURITY,2026-04-25,Day,CLOSED
+589,Smoke observed from electrical control panel.,STORAGE TERMINAL,Chinedu,INSTRUMENTATION,HIGH,ELECTRICAL,2025-02-04,Night,RESOLVED
+590,Loose flange bolts discovered during maintenance.,REFINERY,Ahmed,HSE,MEDIUM,MECHANICAL,2025-02-04,Night,OPEN
+591,  Abnormal temperature recorded in processing unit.  ,,Chinedu,HSE,MEDIUM,EQUIPMENT FAILURE,2025-02-04,Day,OPEN
+592,Small hydraulic fluid leak found beneath crane.,GAS PROCESSING UNIT,Grace,ELECTRICAL,MEDIUM,LEAK,2026-03-13,Day,UNDER INVESTIGATION
+593,FIRE EXTINGUISHER INSPECTION COMPLETED SUCCESSFULLY.,CONTROL ROOM,Grace,PIPELINE OPERATIONS,LOW,INSPECTION,2025-06-17,Day,RESOLVED
+594,Sensor calibration completed successfully.,STORAGE TERMINAL,David,INSTRUMENTATION,LOW,INSPECTION,2026-04-24,Night,RESOLVED
+595,Fire extinguisher inspection completed successfully.,PIPELINE 7,Grace,ELECTRICAL,LOW,INSPECTION,2025-12-23,Night,RESOLVED
+596,Loose flange bolts discovered during maintenance.,PIPELINE 12,Grace,HSE,MEDIUM,MECHANICAL,2025-07-12,Day,OPEN
+597,routine valve maintenance completed without issues.,FLOW STATION,Fatima,PIPELINE OPERATIONS,LOW,MAINTENANCE,2025-06-30,Day,OPEN
+598,Small hydraulic fluid leak found beneath crane.,PIPELINE 12,Joy,INSPECTION,MEDIUM,LEAK,2026-04-15,Night,UNDER INVESTIGATION
+599,Sensor calibration completed successfully.,PLATFORM B,Blessing,INSTRUMENTATION,LOW,INSPECTION,2025-07-01,Night,OPEN
+600,Smoke observed from electrical control panel.,PIPELINE 12,Paul,PRODUCTION,HIGH,ELECTRICAL,2025-06-09,Night,CLOSED
+601,Abnormal temperature recorded in processing unit.,PIPELINE 7,Ibrahim,INSTRUMENTATION,MEDIUM,EQUIPMENT FAILURE,2025-12-14,Night,CLOSED
+602,Abnormal temperature recorded in processing unit.,PIPELINE 7,John,PIPELINE OPERATIONS,MEDIUM,EQUIPMENT FAILURE,2026-01-15,Day,UNDER INVESTIGATION
+603,Fire extinguisher inspection completed successfully.,PLATFORM A,Mary,MECHANICAL,LOW,INSPECTION,2025-03-21,Night,UNDER INVESTIGATION
+604,GAS DETECTOR TRIGGERED ALARM NEAR COMPRESSOR STATION.,REFINERY,Ahmed,MAINTENANCE,HIGH,GAS DETECTION,2026-06-20,Night,CLOSED
+605,  Pressure leak detected on Pipeline 7 during routine inspection.  ,REFINERY,Mary,INSTRUMENTATION,HIGH,LEAK,2025-03-16,Day,CLOSED
+606,  Routine valve maintainance completed without issues.  ,FLOW STATION,Samuel,PIPELINE OPERATIONS,LOW,MAINTENANCE,2025-11-12,Day,UNDER INVESTIGATION
+607,Pump vibration exceeded acceptable threshold.,TANK FARM,Joy,ELECTRICAL,MEDIUM,EQUIPMENT FAILURE,2026-03-29,Day,CLOSED
+608,Fire extinguisher inspection completed successfully.,PLATFORM B,Paul,INSPECTION,LOW,INSPECTION,2026-04-12,Day,UNDER INVESTIGATION
+609,Pressure leak detected on Pipeline 7 during routine inspection.,STORAGE TERMINAL,Paul,HSE,HIGH,LEAK,2025-07-18,Day,UNDER INVESTIGATION
+610,abnormal temprature recorded in processing unit.,CONTROL ROOM,David,PRODUCTION,MEDIUM,EQUIPMENT FAILURE,2025-12-22,Night,CLOSED
+611,  Fire extinguisher inspection completed successfully.  ,GAS PROCESSING UNIT,Aisha,MAINTENANCE,LOW,INSPECTION,2025-08-29,Night,OPEN
+612,Sensor calibration completed successfully.,COMPRESSOR STATION,Mary,HSE,LOW,INSPECTION,2025-08-29,Night,OPEN
+613,Oil spill discovered near storage tank.,PIPELINE 8,Ibrahim,UTILITIES,HIGH,OIL SPILL,2025-08-23,Day,OPEN
+614,Oil spill discovered near storage tank.,CONTROL ROOM,Blessing,PRODUCTION,HIGH,OIL SPILL,2025-04-15,Day,RESOLVED
+615,Loose flange bolts discovered during maintenance.,COMPRESSOR STATION,,MECHANICAL,MEDIUM,MECHANICAL,2025-07-28,Night,UNDER INVESTIGATION
+616,ROUTINE VALVE MAINTENANCE COMPLETED WITHOUT ISSUES.,LOADING BAY,Ahmed,HSE,LOW,MAINTENANCE,2025-01-04,Day,OPEN
+617,small hydraulic fluid leak found beneath crane.,GAS PROCESSING UNIT,Michael,PRODUCTION,MEDIUM,LEAK,2025-12-14,Night,UNDER INVESTIGATION
+618,Pump vibration exceeded acceptable threshold.,COMPRESSOR STATION,Joy,PIPELINE OPERATIONS,MEDIUM,EQUIPMENT FAILURE,2025-02-10,Night,CLOSED
+619,Oil spill discovered near storage tank.,REFINERY,Blessing,PIPELINE OPERATIONS,HIGH,OIL SPILL,2025-07-24,Day,UNDER INVESTIGATION
+620,Smoke observed from electrical control panel.,PLATFORM A,Daniel,MAINTENANCE,HIGH,ELECTRICAL,2025-05-08,Day,OPEN
+621,Fire extinguisher inspection completed successfully.,PLATFORM B,Fatima,INSPECTION,LOW,INSPECTION,2025-08-10,Night,RESOLVED
+622,Abnormal temprature recorded in processing unit.,PIPELINE 8,John,INSTRUMENTATION,MEDIUM,EQUIPMENT FAILURE,2025-01-01,Night,UNDER INVESTIGATION
+623,,FLOW STATION,Grace,HSE,MEDIUM,SLIP/FALL,2025-07-15,Night,CLOSED
+624,Emergency shutdown activated after pressure surge.,PLATFORM A,John,INSTRUMENTATION,HIGH,EQUIPMENT FAILURE,2025-01-13,Night,UNDER INVESTIGATION
+625,Abnormal temperature recorded in processing unit.,LOADING BAY,Samuel,PRODUCTION,MEDIUM,EQUIPMENT FAILURE,2026-05-22,Night,CLOSED
+626,Sensor calibration completed successfully.,,Aisha,MECHANICAL,LOW,INSPECTION,2025-04-24,Day,OPEN
+627,Oil spill discovered near storage tank.,TANK FARM,Fatima,HSE,HIGH,OIL SPILL,2025-02-08,Night,OPEN
+628,Worker slipped on wet surface near loading bay.,PIPELINE 12,Aisha,PIPELINE OPERATIONS,MEDIUM,SLIP/FALL,2025-12-16,Night,RESOLVED
+629,Small hydraulic fluid leak found beneath crane.,TANK FARM,Aisha,INSTRUMENTATION,M,LEAK,2026-01-19,Night,UNDER INVESTIGATION
+630,Smoke observed from electrical control panel.,CONTROL ROOM,Michael,PIPELINE OPERATIONS,HIGH,ELECTRICAL,2025-08-11,Night,UNDER INVESTIGATION
+631,Loose flange bolts discovered during maintenance.,,David,INSTRUMENTATION,MEDIUM,MECHANICAL,2025-08-31,Night,OPEN
+632,Pressure leak detected on Pipeline 7 during routine inspection.,CONTROL ROOM,Fatima,PIPELINE OPERATIONS,HIGH,LEAK,2025-08-28,Night,RESOLVED
+633,Loose flange bolts discovered during maintainance.,PIPELINE 8,Chinedu,MAINTENANCE,MEDIUM,MECHANICAL,2025-12-16,Day,OPEN
+634,Pressure leak detected on Pipeline 7 during routine inspection.,MANIFOLD,Ahmed,MAINTENANCE,HIGH,LEAK,2025-01-16,Day,UNDER INVESTIGATION
+635,Pressure leak detected on Pipeline 7 during routine inspection.,REFINERY,Grace,INSTRUMENTATION,H,LEAK,2025-08-22,Day,OPEN
+636,Sensor calibration completed successfully.,PLATFORM B,Paul,ELECTRICAL,LOW,INSPECTION,2025-02-09,Day,UNDER INVESTIGATION
+637,  gas detector triggered alarm near compressor station.  ,FLOW STATION,Samuel,PIPELINE OPERATIONS,HIGH,GAS DETECTION,2025-09-12,Day,OPEN
+638,Gas detector triggered alarm near compressor station.,STORAGE TERMINAL,Aisha,INSTRUMENTATION,HIGH,GAS DETECTION,2025-10-23,Night,CLOSED
+639,,STORAGE TERMINAL,Chinedu,UTILITIES,LOW,MAINTENANCE,2025-05-29,Day,UNDER INVESTIGATION
+640,Pump vibration exceeded acceptable threshold.,LOADING BAY,Daniel,MAINTENANCE,MEDIUM,EQUIPMENT FAILURE,2026-06-03,Day,CLOSED
+641,,FLOW STATION,Daniel,MAINTENANCE,LOW,INSPECTION,2026-04-19,Day,UNDER INVESTIGATION
+642,Gas detector triggered alarm near compressor station.,TANK FARM,John,HSE,HIGH,GAS DETECTION,2026-05-19,Day,RESOLVED
+643,OIL SPILL DISCOVERED NEAR STORAGE TANK.,CONTROL ROOM,Michael,INSPECTION,HIGH,OIL SPILL,2025-03-09,Night,UNDER INVESTIGATION
+644,  Sensor calibration completed successfully.  ,PLATFORM A,Chinedu,UTILITIES,LOW,INSPECTION,2025-05-13,Night,CLOSED
+645,Pump vibration exceeded acceptable threshold.,PLATFORM B,Blessing,MAINTENANCE,MEDIUM,EQUIPMENT FAILURE,2025-09-07,Night,RESOLVED
+646,  Pump vibration exceeded acceptable threshold.  ,WELLHEAD 12,David,MAINTENANCE,MEDIUM,EQUIPMENT FAILURE,2026-03-28,Night,RESOLVED
+647,Smoke observed from electrical control panel.,PIPELINE 12,John,PRODUCTION,HIGH,ELECTRICAL,2025-10-20,Night,CLOSED
+648,Loose flange bolts discovered during maintenance.,COMPRESSOR STATION,David,ELECTRICAL,MEDIUM,MECHANICAL,2026-04-22,Day,CLOSED
+649,Small hydraulic fluid leak found beneath crane.,MANIFOLD,Ahmed,MECHANICAL,MEDIUM,LEAK,2025-05-24,Day,RESOLVED
+650,,TANK FARM,Daniel,UTILITIES,MEDIUM,MECHANICAL,2026-01-22,Day,RESOLVED
+651,Small hydraulic fluid leak found beneath crane.,PLATFORM A,Ibrahim,PRODUCTION,MEDIUM,LEAK,2026-01-03,Day,CLOSED
+652,Abnormal temperature recorded in processing unit.,MANIFOLD,Grace,PRODUCTION,MEDIUM,EQUIPMENT FAILURE,2026-06-13,Day,RESOLVED
+653,Sensor calibration completed successfully.,PLATFORM B,Grace,UTILITIES,LOW,INSPECTION,2025-10-23,Night,UNDER INVESTIGATION
+654,  Pump vibration exceeded acceptable threshold.  ,FLOW STATION,Paul,UTILITIES,M,EQUIPMENT FAILURE,2026-04-15,Day,RESOLVED
+655,Routine valve maintenance completed without issues.,PLATFORM B,Samuel,MECHANICAL,LOW,MAINTENANCE,2025-08-26,Night,RESOLVED
+656,Unauthorized personnel entered restricted area.,PIPELINE 8,Ibrahim,HSE,HIGH,SECURITY,2025-05-01,Day,OPEN
+657,Smoke observed from electrical control panel.,PIPELINE 7,Ibrahim,HSE,HIGH,ELECTRICAL,2026-01-01,Night,CLOSED
+658,Routine valve maintenance completed without issues.,COMPRESSOR STATION,,MAINTENANCE,LOW,MAINTENANCE,2026-05-19,Day,CLOSED
+659,Worker slipped on wet surface near loading bay.,TANK FARM,Mary,MECHANICAL,MEDIUM,SLIP/FALL,2025-06-23,Night,UNDER INVESTIGATION
+660,Corrosion observed on external pipeline coating.,GAS PROCESSING UNIT,Paul,MECHANICAL,MEDIUM,CORROSION,2026-01-31,Night,RESOLVED
+661,  Loose flange bolts discovered during maintenance.  ,PIPELINE 12,Joy,INSPECTION,MEDIUM,MECHANICAL,2025-10-19,Night,CLOSED
+662,Sensor calibration completed successfully.,TANK FARM,Samuel,MAINTENANCE,LOW,INSPECTION,2025-05-25,Night,UNDER INVESTIGATION
+663,Abnormal temperature recorded in processing unit.,WELLHEAD 12,Daniel,INSPECTION,MEDIUM,EQUIPMENT FAILURE,2026-02-01,Night,UNDER INVESTIGATION
+664,Loose flange bolts discovered during maintenance.,STORAGE TERMINAL,Mary,HSE,MEDIUM,MECHANICAL,2026-05-06,Day,CLOSED
+665,Small hydraulic fluid leak found beneath crane.,COMPRESSOR STATION,John,HSE,MEDIUM,LEAK,2025-02-03,Night,OPEN
+667,Emergency shutdown activated after pressure surge.,FLOW STATION,Daniel,MAINTENANCE,HIGH,EQUIPMENT FAILURE,2025-11-08,Night,OPEN
+668,Fire extinguisher inspection completed successfully.,STORAGE TERMINAL,Samuel,PRODUCTION,LOW,INSPECTION,2026-03-20,Day,CLOSED
+669,SMOKE OBSERVED FROM ELECTRICAL CONTROL PANEL.,FLOW STATION,Joy,MECHANICAL,HIGH,ELECTRICAL,2026-04-11,Night,CLOSED
+670,,STORAGE TERMINAL,Mary,UTILITIES,LOW,MAINTENANCE,2026-02-28,Night,UNDER INVESTIGATION
+671,,GAS PROCESSING UNIT,Aisha,UTILITIES,MEDIUM,LEAK,2025-02-12,Night,CLOSED
+672,Small hydraulic fluid leak found beneath crane.,PIPELINE 7,Fatima,MECHANICAL,MEDIUM,LEAK,2025-04-06,Day,OPEN
+673,Worker slipped on wet surface near loading bay.,PIPELINE 8,Chinedu,UTILITIES,MEDIUM,SLIP/FALL,2025-02-16,Day,OPEN
+674,Smoke observed from electrical control panel.,WELLHEAD 12,,INSTRUMENTATION,HIGH,ELECTRICAL,2026-02-11,Day,OPEN
+675,Smoke observed from electrical control panel.,PIPELINE 8,Daniel,UTILITIES,HIGH,ELECTRICAL,2026-02-11,Day,OPEN
+676,Loose flange bolts discovered during maintainance.,PLATFORM B,Blessing,INSPECTION,MEDIUM,MECHANICAL,2025-10-07,Night,RESOLVED
+677,sensor calibration completed successfully.,TANK FARM,Michael,PRODUCTION,LOW,INSPECTION,2026-01-27,Night,RESOLVED
+678,Smoke observed from electrical control panel.,WELLHEAD 12,Paul,PRODUCTION,HIGH,ELECTRICAL,2025-06-06,Day,OPEN
+679,Sensor calibration completed successfully.,PLATFORM A,,INSTRUMENTATION,LOW,INSPECTION,2025-09-14,Day,UNDER INVESTIGATION
+680,Fire extinguisher inspection completed successfully.,COMPRESSOR STATION,Samuel,UTILITIES,LOW,INSPECTION,2025-10-15,Night,RESOLVED
+681,Emergency shutdown activated after pressure surge.,GAS PROCESSING UNIT,Paul,INSPECTION,HIGH,EQUIPMENT FAILURE,2026-06-13,Day,CLOSED
+682,Corrosion observed on external pipeline coating.,PIPELINE 12,Samuel,MECHANICAL,MEDIUM,CORROSION,2025-08-04,Night,RESOLVED
+683,Small hydraulic fluid leak found beneath crane.,MANIFOLD,David,ELECTRICAL,MEDIUM,LEAK,2026-06-13,Day,CLOSED
+684,Corrosion observed on external pipeline coating.,COMPRESSOR STATION,Ahmed,UTILITIES,MEDIUM,CORROSION,2025-12-26,Day,CLOSED
+685,Emergency shutdown activated after pressure surge.,STORAGE TERMINAL,Blessing,UTILITIES,HIGH,EQUIPMENT FAILURE,2025-01-30,Day,UNDER INVESTIGATION
+686,emergency shutdown activated after pressure surge.,STORAGE TERMINAL,Michael,ELECTRICAL,HIGH,EQUIPMENT FAILURE,2025-01-17,Day,OPEN
+687,Small hydraulic fluid leak found beneath crane.,PIPELINE 7,Mary,PRODUCTION,MEDIUM,LEAK,2026-04-28,Night,RESOLVED
+688,Sensor calibration completed successfully.,TANK FARM,Chinedu,MECHANICAL,LOW,INSPECTION,2025-11-11,Day,RESOLVED
+689,Emergency shutdown activated after pressure surge.,CONTROL ROOM,Fatima,INSPECTION,HIGH,EQUIPMENT FAILURE,2025-11-11,Night,CLOSED
+690,small hydraulic fluid leak found beneath crane.,STORAGE TERMINAL,Samuel,UTILITIES,MEDIUM,LEAK,2025-10-05,Day,OPEN
+691,Worker slipped on wet surface near loading bay.,LOADING BAY,Fatima,ELECTRICAL,MEDIUM,SLIP/FALL,2025-03-09,Night,OPEN
+692,routine valve maintenance completed without issues.,MANIFOLD,Ahmed,MECHANICAL,LOW,MAINTENANCE,2025-01-08,Day,RESOLVED
+693,GAS DETECTOR TRIGGERED ALARM NEAR COMPRESSOR STATION.,FLOW STATION,Fatima,MAINTENANCE,HIGH,GAS DETECTION,2025-10-29,Night,UNDER INVESTIGATION
+694,Emergency shutdown activated after pressure surge.,COMPRESSOR STATION,,UTILITIES,HIGH,EQUIPMENT FAILURE,2026-02-04,Day,RESOLVED
+695,Small hydraulic fluid leak found beneath crane.,LOADING BAY,Daniel,MECHANICAL,MEDIUM,LEAK,2026-04-23,Night,CLOSED
+696,  Small hydraulic fluid leak found beneath crane.  ,REFINERY,Joy,HSE,MEDIUM,LEAK,2025-03-24,Night,CLOSED
+697,Small hydraulic fluid leak found beneath crane.,COMPRESSOR STATION,David,INSPECTION,MEDIUM,LEAK,2025-05-17,Day,UNDER INVESTIGATION
+698,Fire extinguisher inspection completed successfully.,PIPELINE 7,Daniel,ELECTRICAL,LOW,INSPECTION,2026-03-12,Night,OPEN
+699,Pressure leak detected on Pipeline 7 during routine inspection.,STORAGE TERMINAL,Grace,ELECTRICAL,HIGH,LEAK,2025-12-17,Day,RESOLVED
+700,Gas detector triggered alarm near compressor station.,STORAGE TERMINAL,Fatima,MAINTENANCE,HIGH,GAS DETECTION,2026-04-29,Night,RESOLVED
+701,Corrosion observed on external pipeline coating.,CONTROL ROOM,Fatima,MECHANICAL,MEDIUM,CORROSION,2026-04-29,Night,RESOLVED
+702,  Loose flange bolts discovered during maintenance.  ,LOADING BAY,Paul,MAINTENANCE,MEDIUM,MECHANICAL,2025-05-07,Day,OPEN
+703,Smoke observed from electrical control panel.,PIPELINE 8,Ahmed,MAINTENANCE,HIGH,ELECTRICAL,2025-08-30,Day,RESOLVED
+704,Pressure leak detected on Pipeline 7 during routine inspection.,PLATFORM B,Grace,PRODUCTION,HIGH,LEAK,2026-06-21,Day,CLOSED
+705,Gas detector triggered alarm near compressor station.,FLOW STATION,Aisha,UTILITIES,HIGH,GAS DETECTION,2026-06-08,Night,UNDER INVESTIGATION
+706,OIL SPILL DISCOVERED NEAR STORAGE TANK.,PIPELINE 12,Daniel,UTILITIES,HIGH,OIL SPILL,2025-11-24,Day,UNDER INVESTIGATION
+707,Pressure leak detected on Pipeline 7 during routine inspection.,PLATFORM B,Joy,UTILITIES,HIGH,LEAK,2025-04-28,Day,CLOSED
+708,Emergency shutdown activated after pressure surge.,WELLHEAD 12,Blessing,MECHANICAL,HIGH,EQUIPMENT FAILURE,2026-03-09,Day,CLOSED
+709,Worker slipped on wet surface near loading bay.,FLOW STATION,John,UTILITIES,MEDIUM,SLIP/FALL,2026-05-29,Day,OPEN
+710,Abnormal temperature recorded in processing unit.,PIPELINE 7,Michael,INSPECTION,MEDIUM,EQUIPMENT FAILURE,2025-10-14,Day,RESOLVED
+711,corrosion observed on external pipeline coating.,WELLHEAD 12,Chinedu,PIPELINE OPERATIONS,MEDIUM,CORROSION,2025-09-16,Day,UNDER INVESTIGATION
+712,Routine valve maintenance completed without issues.,REFINERY,,MAINTENANCE,LOW,MAINTENANCE,2026-01-02,Night,OPEN
+713,SENSOR CALIBRATION COMPLETED SUCCESSFULLY.,PIPELINE 7,Grace,INSPECTION,LOW,INSPECTION,2026-03-09,Day,CLOSED
+714,Unauthorized personnel entered restricted area.,REFINERY,Joy,PIPELINE OPERATIONS,H,SECURITY,2025-11-12,Night,CLOSED
+715,  loose flange bolts discovered during maintenance.  ,PIPELINE 7,John,HSE,MEDIUM,MECHANICAL,2025-02-02,Night,UNDER INVESTIGATION
+716,Routine valve maintenance completed without issues.,TANK FARM,Fatima,PIPELINE OPERATIONS,LOW,MAINTENANCE,2025-12-12,Day,CLOSED
+717,SMALL HYDRAULIC FLUID LEAK FOUND BENEATH CRANE.,COMPRESSOR STATION,Daniel,HSE,MEDIUM,LEAK,2025-06-22,Night,CLOSED
+718,Oil spill discovered near storage tank.,MANIFOLD,David,PRODUCTION,HIGH,OIL SPILL,2025-08-25,Day,RESOLVED
+719,Smoke observed from electrical control panel.,PIPELINE 7,Aisha,MECHANICAL,HIGH,ELECTRICAL,2025-08-25,Night,CLOSED
+720,Corrosion observed on external pipeline coating.,FLOW STATION,Grace,UTILITIES,MEDIUM,CORROSION,2026-04-11,Day,CLOSED
+721,Emergency shutdown activated after pressure surge.,WELLHEAD 12,Grace,INSPECTION,HIGH,EQUIPMENT FAILURE,2026-04-07,Night,CLOSED
+722,  Gas detector triggered alarm near compressor station.  ,TANK FARM,Blessing,PRODUCTION,HIGH,GAS DETECTION,2025-06-10,Day,UNDER INVESTIGATION
+723,Abnormal temperature recorded in processing unit.,PIPELINE 12,Joy,UTILITIES,MEDIUM,EQUIPMENT FAILURE,2026-01-02,Night,CLOSED
+724,Worker slipped on wet surface near loading bay.,FLOW STATION,Joy,HSE,MEDIUM,SLIP/FALL,2025-01-15,Night,OPEN
+725,Emergency shutdown activated after pressure surge.,REFINERY,Paul,MECHANICAL,HIGH,EQUIPMENT FAILURE,2025-02-18,Night,CLOSED
+726,Fire extinguisher inspection completed successfully.,MANIFOLD,Paul,PRODUCTION,LOW,INSPECTION,2025-07-07,Night,CLOSED
+727,Small hydraulic fluid leak found beneath crane.,FLOW STATION,Fatima,MAINTENANCE,MEDIUM,LEAK,2025-08-23,Night,RESOLVED
+728,Unauthorized personnel entered restricted area.,MANIFOLD,John,INSPECTION,HIGH,SECURITY,2026-06-05,Day,RESOLVED
+729,Pump vibration exceeded acceptable threshold.,PIPELINE 12,Ahmed,PRODUCTION,MEDIUM,EQUIPMENT FAILURE,2025-07-19,Day,CLOSED
+730,  Abnormal temperature recorded in processing unit.  ,PIPELINE 7,David,MECHANICAL,MEDIUM,EQUIPMENT FAILURE,2025-05-29,Night,OPEN
+731,Fire extinguisher inspection completed successfully.,GAS PROCESSING UNIT,Blessing,UTILITIES,L,INSPECTION,2026-02-28,Night,OPEN
+732,Worker slipped on wet surface near loading bay.,STORAGE TERMINAL,Ibrahim,MECHANICAL,MEDIUM,SLIP/FALL,2025-05-04,Night,UNDER INVESTIGATION
+733,Small hydraulic fluid leak found beneath crane.,PIPELINE 8,Samuel,MECHANICAL,MEDIUM,LEAK,2026-05-17,Night,UNDER INVESTIGATION
+734,  Small hydraulic fluid leak found beneath crane.  ,LOADING BAY,Ibrahim,MAINTENANCE,MEDIUM,LEAK,2026-06-06,Night,UNDER INVESTIGATION
+735,Corrosion observed on external pipeline coating.,CONTROL ROOM,Ahmed,MAINTENANCE,MEDIUM,CORROSION,2026-01-25,Night,OPEN
+736,,FLOW STATION,Joy,INSPECTION,LOW,INSPECTION,2025-11-26,Night,RESOLVED
+737,Small hydraulic fluid leak found beneath crane.,PIPELINE 8,Samuel,PRODUCTION,MEDIUM,LEAK,2025-08-01,Day,OPEN
+738,Oil spill discovered near storage tank.,WELLHEAD 12,Michael,INSTRUMENTATION,HIGH,OIL SPILL,2025-07-17,Day,CLOSED
+739,WORKER SLIPPED ON WET SURFACE NEAR LOADING BAY.,PIPELINE 12,Chinedu,PRODUCTION,MEDIUM,SLIP/FALL,2026-01-16,Day,RESOLVED
+740,Emergency shutdown activated after pressure surge.,WELLHEAD 12,Michael,PRODUCTION,HIGH,EQUIPMENT FAILURE,2026-01-01,Day,OPEN
+741,Smoke observed from electrical control panel.,LOADING BAY,Blessing,UTILITIES,HIGH,ELECTRICAL,2025-04-23,Night,OPEN
+742,Loose flange bolts discovered during maintenance.,LOADING BAY,Ibrahim,ELECTRICAL,M,MECHANICAL,2026-03-05,Night,OPEN
+743,Loose flange bolts discovered during maintainance.,,Samuel,UTILITIES,MEDIUM,MECHANICAL,2026-05-15,Night,RESOLVED
+744,Small hydraulic fluid leak found beneath crane.,PIPELINE 8,John,MAINTENANCE,MEDIUM,LEAK,2025-10-05,Day,OPEN
+745,Pump vibration exceeded acceptable threshold.,GAS PROCESSING UNIT,Chinedu,INSPECTION,MEDIUM,EQUIPMENT FAILURE,2026-05-20,Night,RESOLVED
+746,Loose flange bolts discovered during maintenance.,PIPELINE 7,Ahmed,HSE,MEDIUM,MECHANICAL,2025-02-15,Night,RESOLVED
+747,Sensor calibration completed successfully.,PLATFORM B,Mary,PRODUCTION,LOW,INSPECTION,2025-02-11,Night,UNDER INVESTIGATION
+748,Oil spill discovered near storage tank.,WELLHEAD 12,Daniel,UTILITIES,HIGH,OIL SPILL,2026-05-09,Night,RESOLVED
+749,Pressure leak detected on Pipeline 7 during routine inspection.,COMPRESSOR STATION,Joy,MECHANICAL,HIGH,LEAK,2026-05-03,Night,UNDER INVESTIGATION
+750,Gas detector triggered alarm near compressor station.,PLATFORM B,Mary,PRODUCTION,HIGH,GAS DETECTION,2026-05-17,Day,CLOSED
+751,corrosion observed on external pipeline coating.,CONTROL ROOM,Grace,HSE,MEDIUM,CORROSION,2025-06-20,Day,OPEN
+752,Sensor calibration completed successfully.,,Paul,UTILITIES,LOW,INSPECTION,2026-04-09,Night,UNDER INVESTIGATION
+753,Abnormal temperature recorded in processing unit.,LOADING BAY,Mary,HSE,MEDIUM,EQUIPMENT FAILURE,2025-03-13,Night,CLOSED
+754,Worker slipped on wet surface near loading bay.,GAS PROCESSING UNIT,Mary,PIPELINE OPERATIONS,MEDIUM,SLIP/FALL,2025-08-24,Night,UNDER INVESTIGATION
+755,Sensor calibration completed successfully.,COMPRESSOR STATION,Ahmed,PIPELINE OPERATIONS,LOW,INSPECTION,2026-06-21,Day,OPEN
+756,Smoke observed from electrical control panel.,CONTROL ROOM,Chinedu,ELECTRICAL,HIGH,ELECTRICAL,2025-10-29,Day,OPEN
+757,Pressure leak detected on Pipeline 7 during routine inspection.,FLOW STATION,Joy,ELECTRICAL,HIGH,LEAK,2025-07-25,Day,UNDER INVESTIGATION
+758,Oil spill discovered near storage tank.,LOADING BAY,Grace,PRODUCTION,HIGH,OIL SPILL,2025-10-08,Night,OPEN
+759,Loose flange bolts discovered during maintenance.,TANK FARM,David,MAINTENANCE,MEDIUM,MECHANICAL,2025-05-13,Day,RESOLVED
+760,Sensor calibration completed successfully.,PIPELINE 12,Fatima,PIPELINE OPERATIONS,LOW,INSPECTION,2026-06-19,Day,OPEN
+761,Emergency shutdown activated after pressure surge.,STORAGE TERMINAL,Ibrahim,PRODUCTION,HIGH,EQUIPMENT FAILURE,2026-02-20,Night,OPEN
+762,Pump vibration exceeded acceptable threshold.,WELLHEAD 12,Michael,PIPELINE OPERATIONS,MEDIUM,EQUIPMENT FAILURE,2025-10-19,Day,RESOLVED
+763,  Fire extinguisher inspection completed successfully.  ,WELLHEAD 12,Blessing,INSPECTION,LOW,INSPECTION,2025-12-18,Night,CLOSED
+764,Emergency shutdown activated after pressure surge.,STORAGE TERMINAL,,PIPELINE OPERATIONS,HIGH,EQUIPMENT FAILURE,2025-04-15,Day,RESOLVED
+765,Sensor calibration completed successfully.,CONTROL ROOM,Daniel,PRODUCTION,LOW,INSPECTION,2025-05-12,Day,OPEN
+766,Corrosion observed on external pipeline coating.,LOADING BAY,Joy,INSPECTION,MEDIUM,CORROSION,2025-06-11,Night,CLOSED
+767,  Oil spill discovered near storage tank.  ,MANIFOLD,John,PRODUCTION,HIGH,OIL SPILL,2025-02-21,Night,UNDER INVESTIGATION
+768,Sensor calibration completed successfully.,PIPELINE 8,Joy,MAINTENANCE,LOW,INSPECTION,2025-09-11,Day,OPEN
+769,  Emergency shutdown activated after pressure surge.  ,PIPELINE 7,Joy,ELECTRICAL,HIGH,EQUIPMENT FAILURE,2025-05-03,Night,UNDER INVESTIGATION
+770,Abnormal temperature recorded in processing unit.,COMPRESSOR STATION,David,PIPELINE OPERATIONS,MEDIUM,EQUIPMENT FAILURE,2025-01-20,Day,OPEN
+771,Small hydraulic fluid leak found beneath crane.,WELLHEAD 12,Chinedu,ELECTRICAL,MEDIUM,LEAK,2025-09-16,Day,RESOLVED
+772,Smoke observed from electrical control panel.,COMPRESSOR STATION,Grace,MAINTENANCE,HIGH,ELECTRICAL,2026-01-24,Night,UNDER INVESTIGATION
+773,Small hydraulic fluid leak found beneath crane.,GAS PROCESSING UNIT,David,MAINTENANCE,MEDIUM,LEAK,2026-06-15,Night,CLOSED
+774,Corrosion observed on external pipeline coating.,PLATFORM B,Daniel,INSTRUMENTATION,MEDIUM,CORROSION,2025-11-01,Night,RESOLVED
+775,Gas detector triggered alarm near compressor station.,LOADING BAY,Mary,ELECTRICAL,HIGH,GAS DETECTION,2025-11-01,Day,RESOLVED
+776,Smoke observed from electrical control panel.,REFINERY,Samuel,ELECTRICAL,HIGH,ELECTRICAL,2025-07-31,Day,RESOLVED
+777,  Unauthorized personnel entered restricted area.  ,PLATFORM B,John,MECHANICAL,HIGH,SECURITY,2026-01-09,Night,RESOLVED
+778,Smoke observed from electrical control panel.,PLATFORM B,Blessing,UTILITIES,HIGH,ELECTRICAL,2026-06-04,Day,RESOLVED
+779,Presssure leak detected on Pipline 7 during routine inspection.,MANIFOLD,Aisha,PRODUCTION,HIGH,LEAK,2025-07-26,Night,CLOSED
+780,Sensor calibration completed successfully.,PLATFORM B,Blessing,PIPELINE OPERATIONS,LOW,INSPECTION,2025-02-19,Night,OPEN
+781,Worker slipped on wet surface near loading bay.,GAS PROCESSING UNIT,Mary,MAINTENANCE,MEDIUM,SLIP/FALL,2026-03-20,Night,CLOSED
+782,Pump vibration exceeded acceptable threshold.,MANIFOLD,John,MAINTENANCE,MEDIUM,EQUIPMENT FAILURE,2025-05-08,Day,UNDER INVESTIGATION
+783,Pump vibration exceeded acceptable threshold.,LOADING BAY,Chinedu,PRODUCTION,MEDIUM,EQUIPMENT FAILURE,2026-05-14,Day,RESOLVED
+784,Routine valve maintenance completed without issues.,,David,MAINTENANCE,LOW,MAINTENANCE,2025-12-20,Day,RESOLVED
+785,Gas detector triggered alarm near compressor station.,TANK FARM,Ahmed,MAINTENANCE,HIGH,GAS DETECTION,2025-01-03,Night,UNDER INVESTIGATION
+786,Routine valve maintenance completed without issues.,FLOW STATION,Daniel,MAINTENANCE,LOW,MAINTENANCE,2025-01-03,Night,CLOSED
+787,Corrosion observed on external pipeline coating.,GAS PROCESSING UNIT,Daniel,HSE,MEDIUM,CORROSION,2025-07-30,Night,CLOSED
+788,Gas detector triggered alarm near compressor station.,PIPELINE 8,Michael,ELECTRICAL,HIGH,GAS DETECTION,2025-09-28,Night,OPEN
+789,unauthorized personnel entered restricted area.,MANIFOLD,David,PRODUCTION,HIGH,SECURITY,2025-11-06,Day,RESOLVED
+790,Routine valve maintenance completed without issues.,TANK FARM,David,INSPECTION,LOW,MAINTENANCE,2025-01-04,Day,RESOLVED
+791,small hydraulic fluid leak found beneath crane.,COMPRESSOR STATION,Fatima,MAINTENANCE,MEDIUM,LEAK,2026-04-21,Night,UNDER INVESTIGATION
+792,Routine valve maintenance completed without issues.,MANIFOLD,John,PRODUCTION,LOW,MAINTENANCE,2025-02-27,Day,UNDER INVESTIGATION
+793,gas detector triggered alarm near compressor station.,STORAGE TERMINAL,Blessing,MECHANICAL,HIGH,GAS DETECTION,2026-05-03,Night,OPEN
+794,  Corrosion observed on external pipeline coating.  ,PIPELINE 7,Grace,INSTRUMENTATION,MEDIUM,CORROSION,2025-04-02,Night,CLOSED
+795,Fire extinguisher inspection completed successfully.,FLOW STATION,Grace,HSE,LOW,INSPECTION,2025-10-05,Night,OPEN
+796,Loose flange bolts discovered during maintenance.,MANIFOLD,Aisha,UTILITIES,MEDIUM,MECHANICAL,2025-03-13,Day,RESOLVED
+797,Routine valve maintenance completed without issues.,PIPELINE 12,Michael,MAINTENANCE,LOW,MAINTENANCE,2025-10-11,Day,OPEN
+798,Pump vibration exceeded acceptable threshold.,MANIFOLD,Joy,PRODUCTION,MEDIUM,EQUIPMENT FAILURE,2025-06-21,Day,CLOSED
+799,Smoke observed from electrical control panel.,GAS PROCESSING UNIT,Michael,UTILITIES,HIGH,ELECTRICAL,2026-03-18,Night,UNDER INVESTIGATION
+800,Unauthorized personnel entered restricted area.,,Chinedu,INSPECTION,HIGH,SECURITY,2026-03-18,Day,RESOLVED
+801,Smoke observed from electrical control panel.,PIPELINE 7,Blessing,INSTRUMENTATION,HIGH,ELECTRICAL,2025-02-06,Night,UNDER INVESTIGATION
+802,Worker slipped on wet surface near loading bay.,PLATFORM B,Daniel,INSTRUMENTATION,MEDIUM,SLIP/FALL,2025-12-21,Night,CLOSED
+803,Loose flange bolts discovered during maintenance.,FLOW STATION,Ahmed,INSPECTION,MEDIUM,MECHANICAL,2025-11-28,Night,CLOSED
+804,Smoke observed from electrical control panel.,GAS PROCESSING UNIT,Paul,INSPECTION,HIGH,ELECTRICAL,2025-07-09,Day,OPEN
+805,Unauthorized personnel entered restricted area.,PLATFORM A,Paul,INSPECTION,HIGH,SECURITY,2025-05-25,Day,OPEN
+806,Emergency shutdown activated after pressure surge.,MANIFOLD,Daniel,MECHANICAL,HIGH,EQUIPMENT FAILURE,2026-05-05,Day,OPEN
+807,Smoke observed from electrical control panel.,FLOW STATION,Grace,HSE,HIGH,ELECTRICAL,2025-08-08,Day,CLOSED
+808,Pressure leak detected on Pipeline 7 during routine inspection.,MANIFOLD,Michael,MAINTENANCE,HIGH,LEAK,2025-05-26,Night,RESOLVED
+809,sensor calibration completed successfully.,FLOW STATION,Joy,INSPECTION,LOW,INSPECTION,2026-03-09,Night,OPEN
+810,Gas detector triggered alarm near compressor station.,PIPELINE 7,Daniel,INSPECTION,HIGH,GAS DETECTION,2025-07-21,Night,CLOSED
+811,Unauthorized personnel entered restricted area.,PIPELINE 7,Mary,MECHANICAL,HIGH,SECURITY,2025-05-25,Night,CLOSED
+812,Pump vibration exceeded acceptable threshold.,FLOW STATION,Ahmed,UTILITIES,MEDIUM,EQUIPMENT FAILURE,2026-01-10,Night,CLOSED
+813,Smoke observed from electrical control panel.,,Ibrahim,INSTRUMENTATION,HIGH,ELECTRICAL,2025-02-23,Day,RESOLVED
+814,Pressure leak detected on Pipeline 7 during routine inspection.,MANIFOLD,John,PIPELINE OPS,HIGH,LEAK,2025-03-26,Night,OPEN
+815,Gas detector triggered alarm near compressor station.,CONTROL ROOM,,INSTRUMENTATION,H,GAS DETECTION,2026-02-06,Night,CLOSED
+816,Worker slipped on wet surface near loading bay.,PLATFORM B,Michael,INSPECTION,MEDIUM,SLIP/FALL,2025-10-31,Night,OPEN
+817,  Worker slipped on wet surface near loading bay.  ,GAS PROCESSING UNIT,Fatima,PRODUCTION,MEDIUM,SLIP/FALL,2026-06-02,Night,UNDER INVESTIGATION
+818,Gas detector triggered alarm near compressor station.,TANK FARM,John,UTILITIES,HIGH,GAS DETECTION,2026-02-20,Day,UNDER INVESTIGATION
+819,Presssure leak detected on Pipline 7 during routine inspection.,REFINERY,Aisha,MAINTENANCE,HIGH,LEAK,2025-01-22,Night,RESOLVED
+820,  Loose flange bolts discovered during maintainance.  ,PIPELINE 7,Aisha,MECHANICAL,MEDIUM,MECHANICAL,2025-12-17,Day,CLOSED
+821,Unauthorized personnel entered restricted area.,STORAGE TERMINAL,Grace,PRODUCTION,HIGH,SECURITY,2025-10-02,Day,UNDER INVESTIGATION
+822,Emergency shutdown activated after pressure surge.,LOADING BAY,Daniel,UTILITIES,HIGH,EQUIPMENT FAILURE,2026-02-08,Night,RESOLVED
+823,Abnormal temperature recorded in processing unit.,TANK FARM,Ahmed,MECHANICAL,MEDIUM,EQUIPMENT FAILURE,2025-06-21,Night,OPEN
+824,  Smoke observed from electrical control panel.  ,MANIFOLD,Chinedu,UTILITIES,HIGH,ELECTRICAL,2026-01-01,Day,OPEN
+825,  Small hydraulic fluid leak found beneath crane.  ,TANK FARM,David,UTILITIES,MEDIUM,LEAK,2026-01-29,Night,UNDER INVESTIGATION
+826,Sensor calibration completed successfully.,PIPELINE 7,Fatima,MECHANICAL,LOW,INSPECTION,2026-06-21,Night,OPEN
+827,Worker slipped on wet surface near loading bay.,MANIFOLD,Ahmed,PIPELINE OPERATIONS,MEDIUM,SLIP/FALL,2025-09-03,Night,CLOSED
+828,Unauthorized personnel entered restricted area.,COMPRESSOR STATION,Daniel,INSPECTION,HIGH,SECURITY,2025-03-11,Night,UNDER INVESTIGATION
+829,,PIPELINE 7,Paul,MAINTENANCE,HIGH,GAS DETECTION,2025-07-29,Day,UNDER INVESTIGATION
+830,Pump vibration exceeded acceptable threshold.,CONTROL ROOM,Daniel,INSTRUMENTATION,MEDIUM,EQUIPMENT FAILURE,2026-03-02,Night,OPEN
+831,routine valve maintenance completed without issues.,MANIFOLD,David,INSTRUMENTATION,LOW,MAINTENANCE,2026-02-27,Night,CLOSED
+832,Pressure leak detected on Pipeline 7 during routine inspection.,PIPELINE 7,,PRODUCTION,HIGH,LEAK,2026-01-08,Day,RESOLVED
+833,Small hydraulic fluid leak found beneath crane.,PLATFORM A,Daniel,HSE,MEDIUM,LEAK,2025-10-06,Day,RESOLVED
+834,Pressure leak detected on Pipeline 7 during routine inspection.,TANK FARM,Ibrahim,PIPELINE OPERATIONS,HIGH,LEAK,2026-01-06,Night,CLOSED
+835,Smoke observed from electrical control panel.,LOADING BAY,Mary,ELECTRICAL,HIGH,ELECTRICAL,2026-01-19,Night,RESOLVED
+836,Corrosion observed on external pipeline coating.,STORAGE TERMINAL,David,UTILITIES,MEDIUM,CORROSION,2026-06-23,Night,CLOSED
+837,  Routine valve maintenance completed without issues.  ,PLATFORM A,Grace,MECHANICAL,LOW,MAINTENANCE,2025-08-05,Day,OPEN
+838,Loose flange bolts discovered during maintenance.,PLATFORM B,Ibrahim,INSPECTION,MEDIUM,MECHANICAL,2025-01-10,Day,OPEN
+839,Pump vibration exceeded acceptable threshold.,CONTROL ROOM,Samuel,MAINTENANCE,MEDIUM,EQUIPMENT FAILURE,2025-01-10,Night,UNDER INVESTIGATION
+840,Small hydraulic fluid leak found beneath crane.,PIPELINE 8,Daniel,PRODUCTION,MEDIUM,LEAK,2026-05-24,Night,RESOLVED
+841,Emergency shutdown activated after pressure surge.,REFINERY,Aisha,MECHANICAL,HIGH,EQUIPMENT FAILURE,2025-02-12,Night,UNDER INVESTIGATION
+842,Small hydraulic fluid leak found beneath crane.,PIPELINE 12,Ahmed,PRODUCTION,MEDIUM,LEAK,2025-09-03,Night,OPEN
+843,Unauthorized personnel entered restricted area.,MANIFOLD,John,MECHANICAL,HIGH,SECURITY,2026-05-30,Night,OPEN
+844,Loose flange bolts discovered during maintenance.,WELLHEAD 12,Fatima,UTILITIES,MEDIUM,MECHANICAL,2025-01-29,Night,CLOSED
+845,Abnormal temperature recorded in processing unit.,PIPELINE 12,Ibrahim,PRODUCTION,MEDIUM,EQUIPMENT FAILURE,2025-04-28,Day,CLOSED
+846,Oil spill discovered near storage tank.,LOADING BAY,Fatima,PIPELINE OPERATIONS,HIGH,OIL SPILL,2025-09-10,Day,OPEN
+847,Pump vibration exceeded acceptable threshold.,CONTROL ROOM,John,ELECTRICAL,MEDIUM,EQUIPMENT FAILURE,2025-07-24,Night,OPEN
+848,Worker slipped on wet surface near loading bay.,WELLHEAD 12,David,MECHANICAL,MEDIUM,SLIP/FALL,2025-11-02,Night,UNDER INVESTIGATION
+849,Small hydraulic fluid leak found beneath crane.,FLOW STATION,Ibrahim,MECHANICAL,MEDIUM,LEAK,2025-10-02,Day,CLOSED
+850,Oil spill discovered near storage tank.,PIPELINE 12,Chinedu,PRODUCTION,HIGH,OIL SPILL,2025-08-14,Day,CLOSED
+851,Fire extinguisher inspection completed successfully.,CONTROL ROOM,John,PRODUCTION,LOW,INSPECTION,2025-08-20,Night,RESOLVED
+852,Fire extinguisher inspection completed successfully.,GAS PROCESSING UNIT,Mary,INSTRUMENTATION,LOW,INSPECTION,2025-09-27,Day,CLOSED
+853,Unauthorized personnel entered restricted area.,LOADING BAY,Blessing,PRODUCTION,HIGH,SECURITY,2025-02-01,Night,RESOLVED
+854,Gas detector triggered alarm near compressor station.,PLATFORM B,Michael,ELECTRICAL,HIGH,GAS DETECTION,2025-12-28,Day,CLOSED
+855,Smoke observed from electrical control panel.,GAS PROCESSING UNIT,Fatima,ELECTRICAL,HIGH,ELECTRICAL,2025-06-20,Night,UNDER INVESTIGATION
+856,Routine valve maintainance completed without issues.,LOADING BAY,Grace,INSTRUMENTATION,LOW,MAINTENANCE,2025-10-12,Day,UNDER INVESTIGATION
+857,Smoke observed from electrical control panel.,PIPELINE 12,Blessing,MECHANICAL,HIGH,ELECTRICAL,2026-01-19,Day,RESOLVED
+858,Worker slipped on wet surface near loading bay.,PIPELINE 7,Ahmed,INSTRUMENTATION,MEDIUM,SLIP/FALL,2025-05-03,Day,UNDER INVESTIGATION
+859,Pressure leak detected on Pipeline 7 during routine inspection.,PIPELINE 12,Grace,UTILITIES,HIGH,LEAK,2025-02-08,Day,OPEN
+860,  Smoke observed from electrical control panel.  ,MANIFOLD,Ibrahim,INSPECTION,HIGH,ELECTRICAL,2025-03-13,Day,OPEN
+861,Emergency shutdown activated after pressure surge.,WELLHEAD 12,Ahmed,INSPECTION,HIGH,EQUIPMENT FAILURE,2026-02-26,Day,CLOSED
+862,Pump vibration exceeded acceptable threshold.,REFINERY,Joy,UTILITIES,MEDIUM,EQUIPMENT FAILURE,2026-02-26,Night,UNDER INVESTIGATION
+863,Pump vibration exceeded acceptable threshold.,PLATFORM A,Samuel,MECHANICAL,MEDIUM,EQUIPMENT FAILURE,2026-01-26,Day,OPEN
+864,Small hydraulic fluid leak found beneath crane.,PLATFORM A,,UTILITIES,M,LEAK,2025-07-16,Day,OPEN
+865,Unauthorized personnel entered restricted area.,PLATFORM A,Blessing,MAINTENANCE,HIGH,SECURITY,2025-11-28,Day,OPEN
+866,unauthorized personnel entered restricted area.,STORAGE TERMINAL,Joy,MAINTENANCE,HIGH,SECURITY,2025-11-06,Day,CLOSED
+867,Emergency shutdown activated after pressure surge.,COMPRESSOR STATION,Michael,MAINTENANCE,HIGH,EQUIPMENT FAILURE,2025-06-26,Night,OPEN
+868,Small hydraulic fluid leak found beneath crane.,CONTROL ROOM,Ibrahim,PIPELINE OPERATIONS,MEDIUM,LEAK,2026-02-03,Night,UNDER INVESTIGATION
+869,Smoke observed from electrical control panel.,GAS PROCESSING UNIT,Grace,INSPECTION,HIGH,ELECTRICAL,2025-04-08,Day,RESOLVED
+870,Pump vibration exceeded acceptable threshold.,PIPELINE 12,Fatima,INSPECTION,MEDIUM,EQUIPMENT FAILURE,2026-06-08,Day,RESOLVED
+871,Routine valve maintainance completed without issues.,PIPELINE 7,Ahmed,UTILITIES,LOW,MAINTENANCE,2025-09-07,Day,OPEN
+872,Sensor calibration completed successfully.,GAS PROCESSING UNIT,Aisha,ELECTRICAL,LOW,INSPECTION,2025-09-12,Night,CLOSED
+873,SMOKE OBSERVED FROM ELECTRICAL CONTROL PANEL.,COMPRESSOR STATION,,MAINTENANCE,HIGH,ELECTRICAL,2025-01-01,Day,CLOSED
+874,Routine valve maintenance completed without issues.,WELLHEAD 12,Aisha,PRODUCTION,LOW,MAINTENANCE,2026-01-01,Day,OPEN
+875,sensor calibration completed successfully.,PLATFORM B,Daniel,PIPELINE OPERATIONS,LOW,INSPECTION,2025-09-21,Day,OPEN
+876,PUMP VIBRATION EXCEEDED ACCEPTABLE THRESHOLD.,TANK FARM,David,INSPECTION,MEDIUM,EQUIPMENT FAILURE,2026-05-29,Night,CLOSED
+877,  Emergency shutdown activated after pressure surge.  ,PLATFORM B,Michael,MAINTENANCE,HIGH,EQUIPMENT FAILURE,2025-04-27,Night,RESOLVED
+878,Smoke observed from electrical control panel.,PIPELINE 12,Samuel,MECHANICAL,HIGH,ELECTRICAL,2025-08-01,Day,RESOLVED
+879,Sensor calibration completed successfully.,STORAGE TERMINAL,Daniel,HSE,LOW,INSPECTION,2025-03-04,Day,CLOSED
+880,Worker slipped on wet surface near loading bay.,CONTROL ROOM,John,ELECTRICAL,MEDIUM,SLIP/FALL,2025-09-02,Day,UNDER INVESTIGATION
+881,Worker slipped on wet surface near loading bay.,FLOW STATION,Samuel,HSE,MEDIUM,SLIP/FALL,2026-01-14,Night,OPEN
+882,  Emergency shutdown activated after pressure surge.  ,LOADING BAY,Paul,PIPELINE OPERATIONS,HIGH,EQUIPMENT FAILURE,2025-10-28,Night,RESOLVED
+883,,FLOW STATION,Chinedu,HSE,MEDIUM,CORROSION,2026-01-06,Night,CLOSED
+884,Oil spill discovered near storage tank.,,Ahmed,PIPELINE OPERATIONS,HIGH,OIL SPILL,2026-03-27,Day,OPEN
+885,Gas detector triggered alarm near compressor station.,MANIFOLD,Joy,PRODUCTION,HIGH,GAS DETECTION,2026-06-14,Day,CLOSED
+886,Worker slipped on wet surface near loading bay.,PIPELINE 7,Michael,PRODUCTION,MEDIUM,SLIP/FALL,2026-01-11,Day,CLOSED
+887,Loose flange bolts discovered during maintenance.,PLATFORM B,Samuel,INSPECTION,MEDIUM,MECHANICAL,2026-05-06,Day,CLOSED
+888,Pressure leak detected on Pipeline 7 during routine inspection.,CONTROL ROOM,Samuel,UTILITIES,HIGH,LEAK,2025-03-03,Night,CLOSED
+889,WORKER SLIPPED ON WET SURFACE NEAR LOADING BAY.,TANK FARM,Chinedu,ELECTRICAL,MEDIUM,SLIP/FALL,2026-04-25,Night,CLOSED
+890,loose flange bolts discovered during maintenance.,LOADING BAY,Michael,HSE,MEDIUM,MECHANICAL,2025-08-04,Night,UNDER INVESTIGATION
+891,  Smoke observed from electrical control panel.  ,REFINERY,Samuel,PRODUCTION,HIGH,ELECTRICAL,2026-05-19,Night,OPEN
+892,Unauthorized personnel entered restricted area.,STORAGE TERMINAL,Aisha,INSPECTION,HIGH,SECURITY,2026-06-22,Night,CLOSED
+893,Loose flange bolts discovered during maintenance.,PIPELINE 8,Samuel,ELECTRICAL,MEDIUM,MECHANICAL,2025-09-30,Night,OPEN
+894,Corrosion observed on external pipeline coating.,STORAGE TERMINAL,Daniel,PIPELINE OPERATIONS,M,CORROSION,2025-11-13,Day,CLOSED
+895,Gas detector triggered alarm near compressor station.,FLOW STATION,John,INSTRUMENTATION,H,GAS DETECTION,2025-11-05,Night,OPEN
+896,Gas detector triggred alarm near compressor station.,LOADING BAY,Blessing,PIPELINE OPERATIONS,HIGH,GAS DETECTION,2026-06-21,Night,RESOLVED
+897,Loose flange bolts discovered during maintainance.,GAS PROCESSING UNIT,David,MECHANICAL,MEDIUM,MECHANICAL,2025-12-06,Day,UNDER INVESTIGATION
+898,OIL SPILL DISCOVERED NEAR STORAGE TANK.,PLATFORM A,David,INSTRUMENTATION,HIGH,OIL SPILL,2025-03-19,Night,OPEN
+899,Small hydraulic fluid leak found beneath crane.,STORAGE TERMINAL,Michael,INSPECTION,MEDIUM,LEAK,2026-02-12,Day,RESOLVED
+900,pump vibration exceeded acceptable threshold.,STORAGE TERMINAL,Ahmed,PIPELINE OPERATIONS,MEDIUM,EQUIPMENT FAILURE,2026-02-12,Night,RESOLVED
+901,Unauthorized personnel entered restricted area.,PLATFORM B,Fatima,MAINTENANCE,HIGH,SECURITY,2026-02-12,Day,UNDER INVESTIGATION
+902,Emergency shutdown activated after pressure surge.,PIPELINE 7,Paul,MECHANICAL,HIGH,EQUIPMENT FAILURE,2026-04-16,Night,UNDER INVESTIGATION
+903,Pump vibration exceeded acceptable threshold.,WELLHEAD 12,Mary,PRODUCTION,MEDIUM,EQUIPMENT FAILURE,2026-05-16,Night,UNDER INVESTIGATION
+904,Sensor calibration completed successfully.,COMPRESSOR STATION,Chinedu,UTILITIES,LOW,INSPECTION,2025-09-06,Night,CLOSED
+905,oil spill discovered near storage tank.,PIPELINE 7,Daniel,INSTRUMENTATION,HIGH,OIL SPILL,2025-07-08,Night,OPEN
+906,ABNORMAL TEMPERATURE RECORDED IN PROCESSING UNIT.,PIPELINE 7,Samuel,HSE,MEDIUM,EQUIPMENT FAILURE,2025-01-29,Night,UNDER INVESTIGATION
+907,Pump vibration exceeded acceptable threshold.,MANIFOLD,David,ELECTRICAL,MEDIUM,EQUIPMENT FAILURE,2025-05-04,Night,CLOSED
+908,Unauthorized personnel entered restricted area.,COMPRESSOR STATION,David,MAINTENANCE,HIGH,SECURITY,2025-07-23,Day,CLOSED
+909,SMALL HYDRAULIC FLUID LEAK FOUND BENEATH CRANE.,PLATFORM B,Ahmed,INSPECTION,MEDIUM,LEAK,2026-03-02,Day,OPEN
+910,CORROSION OBSERVED ON EXTERNAL PIPELINE COATING.,TANK FARM,Fatima,INSPECTION,MEDIUM,CORROSION,2026-06-04,Night,RESOLVED
+911,  Unauthorized personnel entered restricted area.  ,PIPELINE 8,Ibrahim,INSPECTION,HIGH,SECURITY,2025-12-07,Night,CLOSED
+912,Sensor calibration completed successfully.,FLOW STATION,David,PIPELINE OPERATIONS,LOW,INSPECTION,2025-07-31,Day,UNDER INVESTIGATION
+913,Smoke observed from electrical control panel.,MANIFOLD,John,MECHANICAL,HIGH,ELECTRICAL,2025-05-20,Night,CLOSED
+914,Unauthorized personnel entered restricted area.,LOADING BAY,Michael,INSPECTION,HIGH,SECURITY,2025-05-20,Day,RESOLVED
+915,Loose flange bolts discovered during maintenance.,GAS PROCESSING UNIT,Fatima,MAINTENANCE,MEDIUM,MECHANICAL,2026-01-02,Night,RESOLVED
+916,routine valve maintenance completed without issues.,,Blessing,HSE,LOW,MAINTENANCE,2025-08-21,Night,OPEN
+917,Unauthorized personnel entered restricted area.,PLATFORM B,Mary,INSPECTION,HIGH,SECURITY,2026-05-17,Night,RESOLVED
+918,Loose flange bolts discovered during maintenance.,REFINERY,John,ELECTRICAL,MEDIUM,MECHANICAL,2025-10-20,Day,OPEN
+919,oil spill discovered near storage tank.,GAS PROCESSING UNIT,Ahmed,UTILITIES,HIGH,OIL SPILL,2025-05-26,Day,UNDER INVESTIGATION
+920,,REFINERY,Joy,PRODUCTION,MEDIUM,EQUIPMENT FAILURE,2025-05-22,Night,OPEN
+921,Emergency shutdown activated after pressure surge.,PIPELINE 7,Ahmed,ELECTRICAL,HIGH,EQUIPMENT FAILURE,2025-05-20,Day,CLOSED
+922,Abnormal temperature recorded in processing unit.,FLOW STATION,Fatima,MECHANICAL,MEDIUM,EQUIPMENT FAILURE,2025-04-14,Night,OPEN
+923,Oil spill discovered near storage tank.,FLOW STATION,Ahmed,MAINTENANCE,HIGH,OIL SPILL,2025-05-05,Night,CLOSED
+924,Emergency shutdown activated after pressure surge.,REFINERY,Grace,INSTRUMENTATION,HIGH,EQUIPMENT FAILURE,2025-12-15,Day,CLOSED
+925,Smoke observed from electrical control panel.,PIPELINE 12,Blessing,INSPECTION,HIGH,ELECTRICAL,2025-02-02,Night,UNDER INVESTIGATION
+926,SENSOR CALIBRATION COMPLETED SUCCESSFULLY.,WELLHEAD 12,Joy,UTILITIES,LOW,INSPECTION,2026-04-28,Night,OPEN
+927,Corrosion observed on external pipeline coating.,WELLHEAD 12,Joy,PRODUCTION,MEDIUM,CORROSION,2025-09-19,Night,CLOSED
+928,Oil spill discovered near storage tank.,TANK FARM,Chinedu,UTILITIES,HIGH,OIL SPILL,2026-02-13,Night,RESOLVED
+929,Oil spill discovered near storage tank.,STORAGE TERMINAL,Aisha,MECHANICAL,HIGH,OIL SPILL,2025-07-05,Day,RESOLVED
+930,Sensor calibration completed successfully.,MANIFOLD,Fatima,MECHANICAL,LOW,INSPECTION,2026-04-13,Day,OPEN
+931,Loose flange bolts discovered during maintenance.,TANK FARM,Daniel,INSTRUMENTATION,MEDIUM,MECHANICAL,2025-04-29,Night,UNDER INVESTIGATION
+932,Emergency shutdown activated after pressure surge.,TANK FARM,Michael,MAINTENANCE,HIGH,EQUIPMENT FAILURE,2025-12-26,Night,OPEN
+933,GAS DETECTOR TRIGGERED ALARM NEAR COMPRESSOR STATION.,FLOW STATION,John,MAINTENANCE,HIGH,GAS DETECTION,2025-08-24,Night,UNDER INVESTIGATION
+934,Abnormal temperature recorded in processing unit.,WELLHEAD 12,Aisha,INSPECTION,MEDIUM,EQUIPMENT FAILURE,2025-11-19,Day,OPEN
+935,Loose flange bolts discovered during maintenance.,COMPRESSOR STATION,Joy,PRODUCTION,MEDIUM,MECHANICAL,2025-05-16,Day,OPEN
+936,Emergency shutdown activated after pressure surge.,PIPELINE 7,Michael,PIPELINE OPERATIONS,HIGH,EQUIPMENT FAILURE,2025-05-16,Night,CLOSED
+937,Fire extinguisher inspection completed successfully.,PLATFORM B,Chinedu,PRODUCTION,LOW,INSPECTION,2025-02-20,Night,RESOLVED
+938,Pump vibration exceeded acceptable threshold.,PIPELINE 8,Aisha,MECHANICAL,MEDIUM,EQUIPMENT FAILURE,2025-12-01,Day,UNDER INVESTIGATION
+939,Small hydraulic fluid leak found beneath crane.,PLATFORM A,Grace,MECHANICAL,MEDIUM,LEAK,2025-02-21,Day,UNDER INVESTIGATION
+940,Pump vibration exceeded acceptable threshold.,PLATFORM A,Blessing,HSE,MEDIUM,EQUIPMENT FAILURE,2025-11-18,Day,OPEN
+941,Gas detector triggered alarm near compressor station.,WELLHEAD 12,Paul,PRODUCTION,HIGH,GAS DETECTION,2025-09-16,Day,RESOLVED
+942,PRESSURE LEAK DETECTED ON PIPELINE 7 DURING ROUTINE INSPECTION.,REFINERY,Grace,PRODUCTION,HIGH,LEAK,2025-04-19,Day,RESOLVED
+943,Emergency shutdown activated after pressure surge.,COMPRESSOR STATION,Samuel,MECHANICAL,HIGH,EQUIPMENT FAILURE,2025-04-23,Day,CLOSED
+944,Abnormal temperature recorded in processing unit.,PIPELINE 8,Ibrahim,HSE,MEDIUM,EQUIPMENT FAILURE,2025-01-24,Night,RESOLVED
+945,Unauthorized personnel entered restricted area.,TANK FARM,Mary,INSPECTION,HIGH,SECURITY,2025-07-03,Night,OPEN
+946,Routine valve maintenance completed without issues.,GAS PROCESSING UNIT,Mary,MECHANICAL,LOW,MAINTENANCE,2025-02-27,Day,CLOSED
+947,Oil spill discovered near storage tank.,MANIFOLD,Aisha,PRODUCTION,HIGH,OIL SPILL,2025-11-15,Night,UNDER INVESTIGATION
+948,,COMPRESSOR STATION,John,INSTRUMENTATION,HIGH,GAS DETECTION,2025-12-13,Day,RESOLVED
+950,Unauthorized personnel entered restricted area.,STORAGE TERMINAL,Aisha,MAINTENANCE,HIGH,SECURITY,2025-09-12,Night,RESOLVED
+951,Sensor calibration completed successfully.,PIPELINE 7,Ahmed,INSPECTION,LOW,INSPECTION,2025-09-12,Night,RESOLVED
+952,Abnormal temperature recorded in processing unit.,STORAGE TERMINAL,Paul,ELECTRICAL,MEDIUM,EQUIPMENT FAILURE,2026-04-04,Day,CLOSED
+953,Oil spill discovered near storage tank.,LOADING BAY,Ahmed,PIPELINE OPERATIONS,HIGH,OIL SPILL,2025-06-12,Night,OPEN
+954,Sensor calibration completed successfully.,LOADING BAY,Daniel,PRODUCTION,LOW,INSPECTION,2025-12-11,Night,UNDER INVESTIGATION
+955,small hydraulic fluid leak found beneath crane.,FLOW STATION,Ahmed,MECHANICAL,MEDIUM,LEAK,2025-09-18,Night,OPEN
+956,,,David,UTILITIES,HIGH,OIL SPILL,2025-09-18,Day,OPEN
+957,,PIPELINE 8,Michael,ELECTRICAL,MEDIUM,CORROSION,2025-09-16,Night,CLOSED
+958,Smoke observed from electrical control panel.,WELLHEAD 12,Paul,PIPELINE OPERATIONS,HIGH,ELECTRICAL,2026-02-10,Night,RESOLVED
+959,ROUTINE VALVE MAINTENANCE COMPLETED WITHOUT ISSUES.,GAS PROCESSING UNIT,Samuel,MAINTENANCE,LOW,MAINTENANCE,2026-02-08,Day,CLOSED
+960,PRESSURE LEAK DETECTED ON PIPELINE 7 DURING ROUTINE INSPECTION.,GAS PROCESSING UNIT,Michael,PRODUCTION,HIGH,LEAK,2025-05-20,Day,RESOLVED

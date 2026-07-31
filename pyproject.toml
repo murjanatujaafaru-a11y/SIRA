@@ -1,0 +1,15 @@
+[project]
+name = "sira"
+version = "0.1.0"
+description = "An AI- platform for analyzing, classifying, and managing incident report in Oil and Gas Industry"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "matplotlib>=3.11.1",
+    "pandas>=3.0.5",
+]
+
+[tool.uv.workspace]
+members = [
+    "sira",
+]
