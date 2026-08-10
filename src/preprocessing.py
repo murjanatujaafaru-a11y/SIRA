@@ -1,20 +1,20 @@
-#import pandas as pd
+# import pandas as pd
 
-#class DataCleaner:
+# class DataCleaner:
 
-    #def remove_duplicates(self, df):
-       # return df.drop_duplicates()
+#     def remove_duplicates(self, df):
+#        return df.drop_duplicates()
 
-    #def remove_missing(self, df):
-        #return df.dropna()
+#     def remove_missing(self, df):
+#         return df.dropna()
 
-    #def strip_spaces(self, df):
-       # df["report_text"] = df["report_text"].str.strip()
-        #return df
+#     def strip_spaces(self, df):
+#        df["report_text"] = df["report_text"].str.strip()
+#        return df
 
-    #def lowercase(self, df):
-        #df["report_text"] = df["report_text"].str.lower()
-        #return df
+#     def lowercase(self, df):
+#         df["report_text"] = df["report_text"].str.lower()
+#         return df
 
 
 import pandas as pd

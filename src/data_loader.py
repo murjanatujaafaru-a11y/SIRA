@@ -29,8 +29,11 @@ import pandas as pd
 class DataLoader:
     """Handles secure loading operations for the incident dataset."""
     
-    def __init__(self, file_path: str):
-        """Initializes the loader with a specific target file path."""
+    def __init__(self, file_path: str = "data/incident_reports_clean.csv"):
+        """Initializes the loader with a specific target file path.
+        
+        Defaults to 'data/incident_reports_clean.csv' if no path is provided.
+        """
         self.file_path = file_path
 
     def load_data(self) -> pd.DataFrame:
