@@ -10,8 +10,10 @@ Modular Engineering: Structure core functionality into reusable Python modules (
 Cloud & Machine Learning Readiness: Prepare structured, analytics-ready datasets for interactive dashboards and cloud-hosted ML model pipelines.
 
 Repository Structure
-Plaintext
+
 SIRA/
+├── assets/                # Screenshot artifacts & documentation images
+│   └── eda_audit.jpeg     # Execution output screenshot
 ├── data/                  # Raw and processed datasets
 │   ├── raw/               # Original incident logs
 │   └── processed/         # Cleaned and standardized data
@@ -23,8 +25,9 @@ SIRA/
 ├── README.md              # Project documentation
 └── requirements.txt       # Project dependencies
 
+
 Exploratory Data Analysis & Verification
 
 Below is the execution output from the data cleanliness audit:
 
-![Data Audit Output](assets/eda_audit.jpeg)
+![Data Audit Output](assets/eda_audit2.jpeg)
