@@ -1,77 +1,41 @@
 from src.data_loader import DataLoader
-from src.eda import DataExplorer
-from src.utils import print_header
-from src.preprocessing import DataCleaner
+from src.preprocessing import IncidentPreprocessor
 
+class SIRAPipeline:
+    """Object-Oriented Orchestrator for the SIRA Machine Learning Pipeline."""
 
-#print header
+    def __init__(self, bucket_name: str, raw_key: str, processed_key: str):
+        self.bucket_name = bucket_name
+        self.raw_key = raw_key
+        self.processed_key = processed_key
+        
+        self.loader = DataLoader(bucket_name=self.bucket_name)
+        self.preprocessor = IncidentPreprocessor()
 
-def main():
-    loader = DataLoader()
-    df = loader.load_data()
-    print(df.head())
+    def run(self):
+        print("=" * 60)
+        print("          SIRA OOP PIPELINE EXECUTION STARTED         ")
+        print("=" * 60)
 
-    explorer = DataExplorer()
-    # explorer.basic_summary(df)
-    df = loader.load_data()
-    explorer.show_missing_values(df)
-    explorer.show_columns(df)
-    # explorer.show_shapes(df)
-    explorer.show_random_sample(df)
+        raw_df = self.loader.load_csv_from_s3(self.raw_key)
+        print(f"[Pipeline] Loaded {len(raw_df)} initial records from S3.")
 
-def load_data(self):
-    # ... your loading logic that creates a list of data ...
-    
-    # Make sure it returns this:
-    return pd.DataFrame(raw_data_list)
+        cleaned_df = self.preprocessor.fit_transform(raw_df)
 
-   
-def main():
-    # 1. Initialize data components
-    loader = DataLoader()
-    df = loader.load_data()
-    explorer = DataExplorer()
-    
-    # 2. Run EDA sections using the utility header
-    print_header("Data Head Preview")
-    print(df.head().to_string(index=False))
+        print("\n" + "=" * 60)
+        print("                CLEANED DATA PREVIEW                  ")
+        print("=" * 60)
+        print(cleaned_df.head(3))
 
-    print_header("Missing Values Analysis")
-    explorer.show_missing_values(df)
-    
-    print_header("Dataset Columns")
-    explorer.show_columns(df)
-    
-    print_header("Random Data Sample")
-    explorer.show_random_sample(df)
-
-    loader = DataLoader()
-    cleaner = DataCleaner()
-
-    df = loader.load_data()
-
-
-    print("Before Cleaning")
-    print(df.shape)
-
-    df = cleaner.remove_missing(df)
-    df = cleaner.remove_duplicates(df)
-    df = cleaner.strip_spaces(df)
-    df = cleaner.lowercase(df)
-
-    print("After Cleaning")
-    print(df.shape)
-
-
-
-
-
-
-
-   
-
+        self.loader.upload_csv_to_s3(cleaned_df, self.processed_key)
+        print("\n[Pipeline] OOP Pipeline execution finished successfully!")
 
 
 if __name__ == "__main__":
-    main()
-   
+    # Permitted SageMaker S3 bucket
+    BUCKET = "amazon-sagemaker-037941994053-eu-central-1-d8ya19xhaqdz7v"  
+    RAW_KEY = "raw/incident_reports_1000.csv"
+    PROCESSED_KEY = "processed/incident_reports_clean.csv"
+
+    pipeline = SIRAPipeline(bucket_name=BUCKET, raw_key=RAW_KEY, processed_key=PROCESSED_KEY)
+    pipeline.run()
