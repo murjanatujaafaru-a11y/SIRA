@@ -27,4 +27,4 @@ Exploratory Data Analysis & Verification
 
 Below is the execution output from the data cleanliness audit:
 
-![Data Audit Output](assets/eda_audit.png)
+![Data Audit Output](assets/eda_audit.jpeg)
