@@ -1,32 +1,24 @@
-SIRA (Smart Incident Report Analyzer)
+SIRA - Incident Report Data Pipeline & Analysis
+Overview
+SIRA is a modular data engineering and exploratory analytics pipeline designed to clean, structure, and analyze raw operational incident logs. By converting unstructured incident descriptions and corrupted fields into sanitized, high-quality tabular datasets, SIRA lays the groundwork for downstream predictive modeling and machine learning workflows.
 
-About the Application:
-SIRA is a modular Python data engineering tool built to process, clean, and standardize raw incident report logs using a structured architecture (src/data_loader.py and src/preprocessing.py).
+Key Objectives
+Data Cleaning & Preprocessing: Audit raw incident logs, handle missing/corrupted values, and standardize timestamps and text records.
 
-Data Quality Issues Discovered:
-Duplicates: Redundant rows artificially inflating the dataset.
+Modular Engineering: Structure core functionality into reusable Python modules (src/) distinct from interactive exploration notebooks (notebooks/).
 
-Missing Data: Empty cells (NaN) hidden within text and categorical fields.
+Cloud & Machine Learning Readiness: Prepare structured, analytics-ready datasets for interactive dashboards and cloud-hosted ML model pipelines.
 
-Inconsistent Casing: Mismatched capitalization creating fragmented, redundant categories.
-
-Bad Formatting: Dates stored as generic text strings instead of proper temporal objects.
-
-How They Were Identified:
-Anomalies were flagged interactively in eda_investigation.ipynb using core Pandas operations: .shape for dimensions, .isnull().sum() for missing values, .duplicated() for repeats, and .unique() for categorical text checks.
-
-Steps Taken to Clean the Data:
-Deduplication: Dropped duplicate entries, safely trimming the dataset from 1,000 down to 957 unique rows.
-
-Normalizing Casing - Converted text features to lowercase to unify overlapping categories.
-
-Handling NaNs - Assigned explicit placeholders (like "Unknown") to protect rows from total deletion.
-
-Type Casting - Converted string-based date columns into structured datetimes.
-
-Why These Approaches Were Chosen:
-Reproducibility - A modular pipeline ensures new incoming logs are cleaned identically.
-
-Efficiency - Vectorized Pandas commands maximize execution speed over manual loops.
-
-Data Integrity - Strategic imputation preserves neighboring data signals instead of blindly wiping out incomplete rows.
+Repository Structure
+Plaintext
+SIRA/
+├── data/                  # Raw and processed datasets
+│   ├── raw/               # Original incident logs
+│   └── processed/         # Cleaned and standardized data
+├── notebooks/             # Exploratory Data Analysis (EDA) notebooks
+├── src/                   # Source code and modular Python packages
+│   ├── data_loader.py     # Data loading utilities
+│   └── explorer.py        # DataExplorer class for cleaning & auditing
+├── .gitignore             # Git exclusion rules
+├── README.md              # Project documentation
+└── requirements.txt       # Project dependencies
