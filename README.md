@@ -25,8 +25,47 @@ SIRA/
 ├── README.md              # Project documentation
 └── requirements.txt       # Project dependencies
 
+Local vs. AWS Environment Comparison
 
-Exploratory Data Analysis & Verification
+Storage Layer
+Local Workstation (VS Code): Relies on local disk storage (such as data/raw/).
+
+Cloud Environment (AWS): Uses Amazon S3 object storage (s3://.../raw/).
+
+Compute Power
+Local Workstation (VS Code): Bounded by the local machine's physical CPU and RAM limits.
+
+Cloud Environment (AWS): Powered by scalable, on-demand SageMaker EC2 instances.
+
+Code Execution
+Local Workstation (VS Code): Runs directly on the local Python runtime.
+
+Cloud Environment (AWS): Managed within cloud-hosted SageMaker JupyterLab environments.
+
+Data Persistence
+Local Workstation (VS Code): Vulnerable to data loss if local hardware or drives fail.
+
+Cloud Environment (AWS): Highly available, durable storage isolated across S3 object repositories.
+
+Security & Access Control
+Local Workstation (VS Code): Managed via local operating system file permissions.
+
+Cloud Environment (AWS): Governed by fine-grained AWS IAM roles and least-privilege policies.
+
+IAM & Security Considerations
+Role-Based Access Control (RBAC): SageMaker JupyterLab attaches an IAM execution role to authorize S3 bucket reads/writes without exposing static credentials.
+
+Credential Hygiene: No access keys (AWS_ACCESS_KEY_ID or AWS_SECRET_ACCESS_KEY) are hardcoded into source code or committed to GitHub.
+
+Storage Encryption: AWS S3 buckets enforce Server-Side Encryption (SSE-S3) to safeguard datasets at rest.
+
+Cost Considerations
+Amazon S3 Storage: Minimal cost based on gigabyte-per-month object storage and GET/PUT API call volumes.
+
+SageMaker Compute: Incurs hourly charges based on the instance type; cost is optimized by stopping the SageMaker instance when idle.
+
+Data Transfer: In-region data transfers between S3 and SageMaker within the same AWS region incur zero bandwidth fees.
+
 
 Below is the execution output from the data cleanliness audit:
 
